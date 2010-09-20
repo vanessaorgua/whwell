@@ -1,0 +1,64 @@
+<RCC>
+  <qresource>
+    <file>../../../../pict/hand_18x20.png</file>
+    <file>../../../../pict/lamp_g_16x16.png</file>
+    <file>../../../../pict/lamp_r_16x16.png</file>
+    <file>../../../../pict/lib/valve_green_20x32.png</file>
+    <file>../../../../pict/lib/valve_off_20x32.png</file>
+    <file>../../../../pict/lib/lamp_off_16x16.png</file>
+    <file>../../../../pict/lib/lamp_green_16x16.png</file>
+  </qresource>
+
+  <qresource prefix="/mnemo">
+    <file>one.svg</file>
+    <file>mnemo.svg</file>
+  </qresource>
+  <qresource prefix="indicators">
+    <file>cf_bn.png</file>
+    <file>sgr_c_v_off.png</file>
+    <file>sgr_c_g_on.png</file>
+    <file>sgr_c_g_off.png</file>
+    <file>sgr_c_v_on.png</file>
+    <file>sgr_v_g.png</file>
+    <file>sgr_v_w.png</file>
+    <file>ar_down_off.png</file>
+    <file>ar_down_on.png</file>
+    <file>ar_left_off.png</file>
+    <file>ar_left_on.png</file>
+    <file>ar_right_off.png</file>
+    <file>ar_right_on.png</file>
+    <file>ar_up_off.png</file>
+    <file>ar_up_on.png</file>
+    <file>lamf_off.png</file>
+    <file>lamp_on.png</file>
+    <file>lamp_red.png</file>
+    <file>valve_left_off.png</file>
+    <file>valve_left_on.png</file>
+    <file>valve_right_off_off.png</file>
+    <file>valve_right_on.png</file>
+  </qresource>
+  <qresource prefix="big">
+    <file>mnemo.qrc</file>
+    <file>sgr_c_g_off_big.png</file>
+    <file>sgr_c_g_on_big.png</file>
+    <file>sgr_c_v_off_big.png</file>
+    <file>sgr_c_v_on_big.png</file>
+    <file>sgr_v_g_big.png</file>
+    <file>sgr_v_w_big.png</file>
+    <file>ar_down_off_big.png</file>
+    <file>ar_down_on_big.png</file>
+    <file>ar_left_off_big.png</file>
+    <file>ar_left_on_big.png</file>
+    <file>ar_right_off_big.png</file>
+    <file>ar_right_on_big.png</file>
+    <file>ar_up_off_big.png</file>
+    <file>ar_up_on_big.png</file>
+    <file>lamf_off_big.png</file>
+    <file>lamp_on_big.png</file>
+    <file>lamp_red_big.png</file>
+    <file>valve_left_off_big.png</file>
+    <file>valve_left_on_big.png</file>
+    <file>valve_right_off_off_big.png</file>
+    <file>valve_right_on_big.png</file>
+  </qresource>
+</RCC>
