@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1304</width>
+    <width>1354</width>
     <height>846</height>
    </rect>
   </property>
@@ -39,10 +39,10 @@
   <widget class="QLineEdit" name="Q_all_1">
    <property name="geometry">
     <rect>
-     <x>314</x>
+     <x>318</x>
      <y>402</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -86,7 +86,7 @@
      <x>251</x>
      <y>270</y>
      <width>51</width>
-     <height>24</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -108,7 +108,7 @@
      <x>251</x>
      <y>307</y>
      <width>51</width>
-     <height>24</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -632,10 +632,10 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="G_zag_1">
    <property name="geometry">
     <rect>
-     <x>221</x>
+     <x>225</x>
      <y>402</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -735,7 +735,7 @@ QCheckBox:indicator
      <x>460</x>
      <y>307</y>
      <width>51</width>
-     <height>24</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -757,7 +757,7 @@ QCheckBox:indicator
      <x>460</x>
      <y>270</y>
      <width>51</width>
-     <height>24</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -1147,10 +1147,10 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="G_zag_2">
    <property name="geometry">
     <rect>
-     <x>430</x>
+     <x>434</x>
      <y>402</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -1327,10 +1327,10 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="Q_all_2">
    <property name="geometry">
     <rect>
-     <x>523</x>
+     <x>527</x>
      <y>402</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -1428,7 +1428,7 @@ QCheckBox:indicator
      <x>669</x>
      <y>307</y>
      <width>51</width>
-     <height>24</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -1450,7 +1450,7 @@ QCheckBox:indicator
      <x>669</x>
      <y>270</y>
      <width>51</width>
-     <height>24</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -1840,10 +1840,10 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="G_zag_3">
    <property name="geometry">
     <rect>
-     <x>639</x>
+     <x>643</x>
      <y>402</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -2020,10 +2020,10 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="Q_all_3">
    <property name="geometry">
     <rect>
-     <x>732</x>
+     <x>736</x>
      <y>402</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -2121,7 +2121,7 @@ QCheckBox:indicator
      <x>878</x>
      <y>307</y>
      <width>51</width>
-     <height>24</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -2143,7 +2143,7 @@ QCheckBox:indicator
      <x>878</x>
      <y>270</y>
      <width>51</width>
-     <height>24</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -2533,10 +2533,10 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="G_zag_4">
    <property name="geometry">
     <rect>
-     <x>848</x>
+     <x>852</x>
      <y>402</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -2713,10 +2713,10 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="Q_all_4">
    <property name="geometry">
     <rect>
-     <x>941</x>
+     <x>945</x>
      <y>402</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -2814,7 +2814,7 @@ QCheckBox:indicator
      <x>1087</x>
      <y>307</y>
      <width>51</width>
-     <height>24</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -2836,7 +2836,7 @@ QCheckBox:indicator
      <x>1087</x>
      <y>270</y>
      <width>51</width>
-     <height>24</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -3226,10 +3226,10 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="G_zag_5">
    <property name="geometry">
     <rect>
-     <x>1057</x>
+     <x>1061</x>
      <y>402</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -3406,10 +3406,10 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="Q_all_5">
    <property name="geometry">
     <rect>
-     <x>1150</x>
+     <x>1154</x>
      <y>402</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -4492,8 +4492,8 @@ QCheckBox:indicator
     <rect>
      <x>0</x>
      <y>700</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -4514,8 +4514,8 @@ QCheckBox:indicator
     <rect>
      <x>1310</x>
      <y>700</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -4534,10 +4534,10 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="le_V_02">
    <property name="geometry">
     <rect>
-     <x>190</x>
+     <x>194</x>
      <y>270</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -4556,10 +4556,10 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="le_V_05">
    <property name="geometry">
     <rect>
-     <x>801</x>
+     <x>805</x>
      <y>61</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -4591,10 +4591,10 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="le_V_01">
    <property name="geometry">
     <rect>
-     <x>81</x>
+     <x>85</x>
      <y>357</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -4613,10 +4613,10 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="le_V_03">
    <property name="geometry">
     <rect>
-     <x>81</x>
+     <x>85</x>
      <y>377</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -4648,10 +4648,10 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="le_V_04">
    <property name="geometry">
     <rect>
-     <x>81</x>
+     <x>85</x>
      <y>447</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -4670,10 +4670,10 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="le_V_06">
    <property name="geometry">
     <rect>
-     <x>785</x>
+     <x>789</x>
      <y>261</y>
-     <width>51</width>
-     <height>24</height>
+     <width>42</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1382</width>
-    <height>846</height>
+    <height>831</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -710,10 +710,10 @@ QCheckBox:indicator
   <widget class="QFrame" name="trcf">
    <property name="geometry">
     <rect>
-     <x>19</x>
-     <y>509</y>
+     <x>20</x>
+     <y>500</y>
      <width>611</width>
-     <height>331</height>
+     <height>321</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -728,9 +728,15 @@ QCheckBox:indicator
     <rect>
      <x>640</x>
      <y>10</y>
-     <width>731</width>
-     <height>831</height>
+     <width>700</width>
+     <height>821</height>
     </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>821</height>
+    </size>
    </property>
    <property name="frameShape">
     <enum>QFrame::NoFrame</enum>
@@ -740,10 +746,10 @@ QCheckBox:indicator
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <property name="spacing">
-     <number>-1</number>
+     <number>3</number>
     </property>
     <property name="margin">
-     <number>4</number>
+     <number>1</number>
     </property>
     <item>
      <widget class="QGroupBox" name="cf_sel">
@@ -1213,6 +1219,12 @@ QCheckBox:indicator
        </item>
        <item row="1" column="3">
         <widget class="QLineEdit" name="Q_prl">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="maximumSize">
           <size>
            <width>80</width>
@@ -1259,6 +1271,12 @@ QCheckBox:indicator
        </item>
        <item row="2" column="3">
         <widget class="QLineEdit" name="T_prl">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="maximumSize">
           <size>
            <width>80</width>
@@ -1352,6 +1370,12 @@ QCheckBox:indicator
        </item>
        <item row="1" column="3">
         <widget class="QLineEdit" name="Fott">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="maximumSize">
           <size>
            <width>80</width>
@@ -1398,6 +1422,12 @@ QCheckBox:indicator
        </item>
        <item row="2" column="3">
         <widget class="QLineEdit" name="T_fug">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="maximumSize">
           <size>
            <width>80</width>
@@ -1692,6 +1722,12 @@ QCheckBox:indicator
     </item>
     <item>
      <widget class="QFrame" name="f_5">
+      <property name="minimumSize">
+       <size>
+        <width>160</width>
+        <height>0</height>
+       </size>
+      </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
       </property>
@@ -1749,6 +1785,12 @@ QCheckBox:indicator
        </item>
        <item row="1" column="4">
         <widget class="QLineEdit" name="Q_pr">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="maximumSize">
           <size>
            <width>80</width>
@@ -1808,6 +1850,12 @@ QCheckBox:indicator
        </item>
        <item row="1" column="3">
         <widget class="QLineEdit" name="Q_pr_zd">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="maximumSize">
           <size>
            <width>80</width>
@@ -1906,6 +1954,12 @@ QCheckBox:indicator
        </item>
        <item row="3" column="2">
         <widget class="QLineEdit" name="Imp">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="maximumSize">
           <size>
            <width>80</width>
@@ -1919,6 +1973,12 @@ QCheckBox:indicator
        </item>
        <item row="4" column="2">
         <widget class="QLineEdit" name="T_p_zd">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="maximumSize">
           <size>
            <width>80</width>
@@ -1932,6 +1992,12 @@ QCheckBox:indicator
        </item>
        <item row="2" column="3">
         <widget class="QLineEdit" name="T_pr">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="maximumSize">
           <size>
            <width>80</width>
@@ -2256,6 +2322,12 @@ QCheckBox:indicator
        </item>
        <item row="1" column="3">
         <widget class="QLineEdit" name="Q_reg">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="maximumSize">
           <size>
            <width>80</width>
@@ -2302,6 +2374,12 @@ QCheckBox:indicator
        </item>
        <item row="2" column="3">
         <widget class="QLineEdit" name="T_reg">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="maximumSize">
           <size>
            <width>80</width>

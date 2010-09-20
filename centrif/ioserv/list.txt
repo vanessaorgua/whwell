@@ -1,114 +1,140 @@
-Status	1	Integer	1	1	-	Status
-I_m	2	Integer	1	1	-	I_m
-Ob	3	Integer	1	1	-	Ob
-Fott	4	Integer	1	1	-	Fott
-T_all	5	Integer	1	1	-	T_all
-T_reg	6	Integer	1	1	-	T_reg
-T_prl	7	Integer	1	1	-	T_prl
-T_fug	8	Integer	1	1	-	T_fug
-T_pr	9	Integer	1	1	-	T_pr
-T_nt	10	Integer	1	1	-	T_nt
-Ob_zd	11	Integer	1	1	-	Ob_zd
-Nc	13	Long	1	1	-	Nc
-Gzag	15	Real	1	1	-	Gzag
-Q_pr_zd	17	Real	1	1	-	Q_pr_zd
-Q_man	19	Real	1	1	-	Q_man
-Q_all	21	Real	1	1	-	Q_all
-Q_reg	23	Real	1	1	-	Q_reg
-Q_prl	25	Real	1	1	-	Q_prl
-Q_pr	27	Real	1	1	-	Q_pr
-Q_k	29	Real	60	0	-	Q_k
-Kv_1	31	Real	60	0	-	Kv_1
-Kv_2	33	Real	60	0	-	Kv_2
-K_imp	35	Real	60	0	-	K_imp
-Kf_prl	37	Real	60	0	-	Kf_prl
-Kf_pr	39	Real	60	0	-	Kf_pr
-Q_reg_zd	41	Real	60	0	-	Q_reg_zd
-Q_prl_zd	43	Real	60	0	-	Q_prl_zd
-Q_man_zd	45	Real	60	0	-	Q_man_zd
-Gzag_zd	47	Real	60	0	-	Gzag_zd
-Max_gzag	49	Real	60	0	-	Max_gzag
-Imp	51	Integer	60	0	-	Imp
-T_zag_zd	52	Integer	60	0	-	T_zag_zd
-T_fug_zd	53	Integer	60	0	-	T_fug_zd
-T_sir_zd	54	Integer	60	0	-	T_sir_zd
-T_p_zd	55	Integer	60	0	-	T_p_zd
-Tnt_zd	56	Integer	60	0	-	Tnt_zd
-Ts_z_zd	57	Integer	60	0	-	Ts_z_zd
-Ts_b_zd	58	Integer	60	0	-	Ts_b_zd
-Tn_v	59	Integer	60	0	-	Tn_v
-Tn_n	60	Integer	60	0	-	Tn_n
-T_vigr_zd	61	Integer	60	0	-	T_vigr_zd
-Fott_zd	62	Integer	60	0	-	Fott_zd
-Ob_zag_zd	63	Integer	60	0	-	Ob_zag_zd
-Ob_prl_zd	64	Integer	60	0	-	Ob_prl_zd
-Ob_fug_zd	65	Integer	60	0	-	Ob_fug_zd
-Ob_vigr_zd	66	Integer	60	0	-	Ob_vigr_zd
-Ob_del_zd	67	Integer	60	0	-	Ob_del_zd
-Psir_min	68	Integer	60	0	-	Psir_min
-Tvod_zd	69	Integer	60	0	-	Tvod_zd
-Tvod	70	Integer	60	0	-	Tvod
-Psir	71	Integer	60	0	-	Psir
-Kf_i_m	72	Integer	60	0	-	Kf_i_m
-Kf_ob	73	Integer	60	0	-	Kf_ob
-Kf_fott	74	Integer	60	0	-	Kf_fott
-Fott_min	75	Real	60	0	-	Fott_min
-Fott_max	77	Real	60	0	-	Fott_max
-Ob_max	79	Real	60	0	-	Ob_max
-I_m_max	81	Real	60	0	-	I_m_max
-Rej_nepr	1	EBOOL	60	0	-	Rej_nepr
-Rej_sir	2	EBOOL	60	0	-	Rej_sir
-Rej_tvod	3	EBOOL	60	0	-	Rej_tvod
-Rej_fug	4	EBOOL	60	0	-	Rej_fug
-Rej_sync	5	EBOOL	60	0	-	Rej_sync
-A_all	13	EBOOL	1	1	-	A_all
-Vibrat	14	EBOOL	1	1	-	Vibrat
-Shyb_cl_alm	15	EBOOL	1	1	-	Shyb_cl_alm
-Dsp_alm	16	EBOOL	1	1	-	Dsp_alm
-Dz_fail	17	EBOOL	1	1	-	Dz_fail
-D_man	18	EBOOL	1	1	-	D_man
-a_dsp	19	EBOOL	1	1	-	a_dsp
-a_lot	20	EBOOL	1	1	-	a_lot
-a_sgr	21	EBOOL	1	1	-	a_sgr
-a_nup	22	EBOOL	1	1	-	a_nup
-a_ndw	23	EBOOL	1	1	-	a_ndw
-Prev	50	EBOOL	1	0	-	Prev
-X_torm	51	EBOOL	1	1	-	X_torm
-X_lotok	52	EBOOL	1	1	-	X_lotok
-X_shib	53	EBOOL	1	1	-	X_shib
-X_kon	54	EBOOL	1	1	-	X_kon
-X_nvs	55	EBOOL	1	1	-	X_nvs
-X_nds	56	EBOOL	1	1	-	X_nds
-X_nup	57	EBOOL	1	1	-	X_nup
-X_ndw	58	EBOOL	1	1	-	X_ndw
-X_sgr_b	59	EBOOL	1	1	-	X_sgr_b
-X_sgr_z	60	EBOOL	1	1	-	X_sgr_z
-X_vv	61	EBOOL	1	1	-	X_vv
-X_luk	62	EBOOL	1	1	-	X_luk
-Gzag_end	63	EBOOL	1	1	-	Gzag_end
-X_endz	64	EBOOL	1	1	-	X_endz
-X_man	65	EBOOL	1	1	-	X_man
-X_vc	66	EBOOL	1	1	-	X_vc
-X_presh	67	EBOOL	1	1	-	X_presh
-X_ndw_r	68	EBOOL	1	1	-	X_ndw_r
-X_nup_r	69	EBOOL	1	1	-	X_nup_r
-X_alarm	70	EBOOL	1	1	-	X_alarm
-X_stop	71	EBOOL	1	1	-	X_stop
-X_fault	72	EBOOL	1	1	-	X_fault
-X_run	73	EBOOL	1	1	-	X_run
-Y_torm	74	EBOOL	1	1	-	Y_torm
-Y_lotok	75	EBOOL	1	1	-	Y_lotok
-Y_shib	76	EBOOL	1	1	-	Y_shib
-Y_dsp_h	77	EBOOL	1	1	-	Y_dsp_h
-Y_prl	78	EBOOL	1	1	-	Y_prl
-Y_nds	79	EBOOL	1	1	-	Y_nds
-Y_pr	80	EBOOL	1	1	-	Y_pr
-Y_sgr	81	EBOOL	1	1	-	Y_sgr
-Y_sir	82	EBOOL	1	1	-	Y_sir
-Y_l_fw	83	EBOOL	1	1	-	Y_l_fw
-Y_l_bw	84	EBOOL	1	1	-	Y_l_bw
-Y_run	85	EBOOL	1	1	-	Y_run
-Y_fast	86	EBOOL	1	1	-	Y_fast
-Y_lock	87	EBOOL	1	1	-	Y_lock
-Y_ndw	88	EBOOL	1	1	-	Y_ndw
-Y_nup	89	EBOOL	1	1	-	Y_nup
+Q_man	16	Real	1	1	-
+Gzag_s	18	Real	1	1	-
+Gzag_c	20	Real	1	1	-
+I_a	22	Real	1	1	-
+I_b	24	Real	1	1	-
+I_m	26	Real	1	1	-
+Q_pr_zd	28	Real	1	1	-
+Gzag	30	Real	1	1	-
+Q_all	32	Real	1	1	-
+Q_reg	34	Real	1	1	-
+Q_prl	36	Real	1	1	-
+Q_pr	38	Real	1	1	-
+Q_man_r	40	Real	1	1	-
+Nc	42	Long	1	1	-
+T_all	44	Integer	1	1	-
+T_reg	45	Integer	1	1	-
+T_prl	46	Integer	1	1	-
+T_fug	47	Integer	1	1	-
+T_pr	48	Integer	1	1	-
+T_nt	49	Integer	1	1	-
+Error	50	Integer	1	1	-
+Status	51	Integer	1	1	-
+State	52	Integer	1	1	-
+Ob	53	Integer	1	1	-
+Fott	54	Integer	1	1	-
+Fsgr	55	Integer	1	1	-
+Tvod	56	Integer	1	1	-
+pv_spd	57	Integer	1	1	-
+X_torm	58	Bool	1	1	-
+X_lotok	59	Bool	1	1	-
+X_shib	60	Bool	1	1	-
+X_sgr_b	61	Bool	1	1	-
+X_sgr_z	62	Bool	1	1	-
+X_nup	63	Bool	1	1	-	Ніж вверху
+X_ndw	64	Bool	1	1	-	Ніж внизу
+X_vc	65	Bool	1	1	-
+X_vv	66	Bool	1	1	-
+X_luk	67	Bool	1	1	-
+X_stop	68	Bool	1	1	-
+X_endz	69	Bool	1	1	-
+X_man	70	Bool	1	1	-
+X_alarm	71	Bool	1	1	-
+Gzag_end	72	Bool	1	1	-
+drv_fail	73	Bool	1	1	-
+cf_fail	74	Bool	1	1	-
+dz_fail	75	Bool	1	1	-
+Y_trom	76	Bool	1	1	-
+Y_lotok	77	Bool	1	1	-
+Y_shib	78	Bool	1	1	-
+Y_prl	79	Bool	1	1	-
+Y_sir	80	Bool	1	1	-
+Y_pr	81	Bool	1	1	-
+Y_sgr	82	Bool	1	1	-
+Y_nds	83	Bool	1	1	-
+Y_cool	84	Bool	1	1	-
+Y_KM1	85	Bool	1	1	-
+Y_KM2	86	Bool	1	1	-
+Y_KM3	87	Bool	1	1	-
+Y_KM4	88	Bool	1	1	-
+Y_tyr	89	Bool	1	1	-
+Y_l_fw	90	Bool	1	1	-
+Y_l_bw	91	Bool	1	1	-
+A_dsp	92	Bool	1	1	-
+A_torm	93	Bool	1	1	-
+A_sgr	94	Bool	1	1	-
+A_shib	95	Bool	1	1	-
+A_lot	96	Bool	1	1	-
+A_vv	97	Bool	1	1	-
+vc_fail	98	Bool	1	1	-
+A_all	99	Bool	1	1	-
+dsp_alm	100	Bool	1	1	-
+X_centr	101	Bool	1	1	-
+X_kon	102	Bool	1	1	-	Кінцевик конуса
+X_nds	103	Bool	1	1	-	кінцевик ніж до сита
+X_nvs	104	Bool	1	1	-	кінцевик ніж від сита
+Y_dsp_h	105	Bool	1	1	-	Конус\, центровка
+Y_ndw	106	Bool	1	1	-	Ніж вниз
+Y_nup	107	Bool	1	1	-	ніж вниз
+Y_nvs	108	Bool	1	1	-
+Y_dt	109	Bool	1	1	-	динамічне гальмування двигуна ножа
+dio_2	110	Bool	1	1	-	зв'язок з модулем 7060
+                        1	1	-
+Tz_prl	255	Integer	120	0	-
+Psir_min	256	Integer	120	0	-
+Tvod_zd	257	Integer	120	0	-
+Imp	258	Integer	120	0	-
+T_zag_zd	259	Integer	120	0	-
+T_fug_zd	260	Integer	120	0	-
+T_sir_zd	261	Integer	120	0	-
+T_p_zd	262	Integer	120	0	-	T_p
+Tnt_zd	263	Integer	120	0	-
+Ts_z_zd	264	Integer	120	0	-
+Ts_b_zd	265	Integer	120	0	-
+Tn_n	266	Integer	120	0	-
+T_vigr_zd	267	Integer	120	0	-
+T_c_max	268	Integer	120	0	-
+Fott_zd	269	Integer	120	0	-
+Kf_i_m	270	Integer	120	0	-
+Kf_ob	271	Integer	120	0	-
+Kf_fott	272	Integer	120	0	-
+Kf_fsgr	273	Integer	120	0	-
+Q_reg_zd	274	Real	120	0	-
+Q_prl_zd	276	Real	120	0	-
+Q_man_zd	278	Real	120	0	-
+Q_k	280	Real	120	0	-
+Kf_prl	282	Real	120	0	-
+Kf_pr	284	Real	120	0	-
+K_imp	286	Real	120	0	-
+Kv_1	288	Real	120	0	-
+Kv_2	290	Real	120	0	-
+Max_i_m	292	Real	120	0	-
+Max_Ob	294	Real	120	0	-
+Max_fott	296	Real	120	0	-
+Max_fsgr	298	Real	120	0	-
+Max_gzag	300	Real	120	0	-
+Min_fott	302	Real	120	0	-
+Min_fsgr	304	Real	120	0	-
+Min_gzag	306	Real	120	0	-
+Gzag_zd	308	Real	120	0	-
+c_sw_m	310	Real	120	0	-
+c_sw_1	312	Real	120	0	-
+c_sw_2	314	Real	120	0	-
+c_sw_3	316	Real	120	0	-
+c_sw_4	318	Real	120	0	-
+c_f_max	320	Real	120	0	-
+c_max	322	Real	120	0	-
+Gzag_s_zd	324	Real	120	0	-
+Rej_nepr	326	Bool	120	0	-
+Rej_sir	327	Bool	120	0	-
+Rej_tvod	328	Bool	120	0	-
+Rej_fug	329	Bool	120	0	-
+Save	330	Bool	120	0	-
+Run	331	Bool	120	0	-
+Cf_nom	332	Integer	120	0	-
+lo_Gzag	333	Real	120	0	-
+hi_Gzag	335	Real	120	0	-
+a_Gzag	337	Real	120	0	-
+b_Gzag	339	Real	120	0	-
+Gzag_offset	341	Real	120	0	-
+Tn_v	343	Integer	120	0	-	час простою ножа вверху

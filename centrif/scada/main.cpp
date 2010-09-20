@@ -18,6 +18,7 @@ int main(int argc,char **argv)
 
     QCoreApplication::setOrganizationName("Rabitsa");
     QCoreApplication::setApplicationName("centrif");
+    QApplication::setStyle(new QPlastiqueStyle);
 
     QSettings s;
     qDebug() << "Host" << s.value("/ioserv/hostname","localhost").toString();
