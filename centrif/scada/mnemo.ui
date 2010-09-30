@@ -39,7 +39,7 @@
   <widget class="QLineEdit" name="Q_all_1">
    <property name="geometry">
     <rect>
-     <x>318</x>
+     <x>428</x>
      <y>402</y>
      <width>42</width>
      <height>20</height>
@@ -61,7 +61,7 @@
   <widget class="QLineEdit" name="Status_1">
    <property name="geometry">
     <rect>
-     <x>206</x>
+     <x>316</x>
      <y>498</y>
      <width>141</width>
      <height>31</height>
@@ -83,7 +83,7 @@
   <widget class="QLineEdit" name="Ob_1">
    <property name="geometry">
     <rect>
-     <x>251</x>
+     <x>361</x>
      <y>270</y>
      <width>51</width>
      <height>20</height>
@@ -105,7 +105,7 @@
   <widget class="QLineEdit" name="I_m_1">
    <property name="geometry">
     <rect>
-     <x>251</x>
+     <x>361</x>
      <y>307</y>
      <width>51</width>
      <height>20</height>
@@ -127,7 +127,7 @@
   <widget class="QCheckBox" name="X_nup_1">
    <property name="geometry">
     <rect>
-     <x>209</x>
+     <x>319</x>
      <y>416</y>
      <width>11</width>
      <height>11</height>
@@ -166,7 +166,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_ndw_1">
    <property name="geometry">
     <rect>
-     <x>209</x>
+     <x>319</x>
      <y>451</y>
      <width>11</width>
      <height>11</height>
@@ -205,7 +205,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_nup_1">
    <property name="geometry">
     <rect>
-     <x>209</x>
+     <x>319</x>
      <y>428</y>
      <width>11</width>
      <height>11</height>
@@ -245,7 +245,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_sir_1">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>460</x>
      <y>433</y>
      <width>17</width>
      <height>19</height>
@@ -284,7 +284,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_pr_1">
    <property name="geometry">
     <rect>
-     <x>327</x>
+     <x>437</x>
      <y>433</y>
      <width>17</width>
      <height>19</height>
@@ -322,7 +322,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_ndw_1">
    <property name="geometry">
     <rect>
-     <x>209</x>
+     <x>319</x>
      <y>440</y>
      <width>11</width>
      <height>11</height>
@@ -361,7 +361,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_nds_1">
    <property name="geometry">
     <rect>
-     <x>194</x>
+     <x>304</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -400,7 +400,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_nvs_1">
    <property name="geometry">
     <rect>
-     <x>224</x>
+     <x>334</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -439,7 +439,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_nds_1">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>320</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -476,7 +476,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_torm_1">
    <property name="geometry">
     <rect>
-     <x>270</x>
+     <x>380</x>
      <y>381</y>
      <width>11</width>
      <height>11</height>
@@ -515,7 +515,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_sgr_1">
    <property name="geometry">
     <rect>
-     <x>357</x>
+     <x>467</x>
      <y>556</y>
      <width>8</width>
      <height>20</height>
@@ -555,7 +555,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_sgr_z_1">
    <property name="geometry">
     <rect>
-     <x>357</x>
+     <x>467</x>
      <y>575</y>
      <width>25</width>
      <height>20</height>
@@ -594,7 +594,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_sgr_b_1">
    <property name="geometry">
     <rect>
-     <x>340</x>
+     <x>450</x>
      <y>575</y>
      <width>25</width>
      <height>20</height>
@@ -632,7 +632,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="G_zag_1">
    <property name="geometry">
     <rect>
-     <x>225</x>
+     <x>335</x>
      <y>402</y>
      <width>42</width>
      <height>20</height>
@@ -654,7 +654,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_shib_1">
    <property name="geometry">
     <rect>
-     <x>237</x>
+     <x>347</x>
      <y>433</y>
      <width>17</width>
      <height>19</height>
@@ -693,7 +693,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_kon_1">
    <property name="geometry">
     <rect>
-     <x>270</x>
+     <x>380</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -732,7 +732,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="I_m_2">
    <property name="geometry">
     <rect>
-     <x>460</x>
+     <x>570</x>
      <y>307</y>
      <width>51</width>
      <height>20</height>
@@ -754,7 +754,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="Ob_2">
    <property name="geometry">
     <rect>
-     <x>460</x>
+     <x>570</x>
      <y>270</y>
      <width>51</width>
      <height>20</height>
@@ -776,7 +776,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_ndw_2">
    <property name="geometry">
     <rect>
-     <x>418</x>
+     <x>528</x>
      <y>451</y>
      <width>11</width>
      <height>11</height>
@@ -815,7 +815,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_nvs_2">
    <property name="geometry">
     <rect>
-     <x>433</x>
+     <x>543</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -854,7 +854,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_sgr_b_2">
    <property name="geometry">
     <rect>
-     <x>549</x>
+     <x>659</x>
      <y>575</y>
      <width>25</width>
      <height>20</height>
@@ -892,7 +892,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_pr_2">
    <property name="geometry">
     <rect>
-     <x>536</x>
+     <x>646</x>
      <y>433</y>
      <width>17</width>
      <height>19</height>
@@ -930,7 +930,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_kon_2">
    <property name="geometry">
     <rect>
-     <x>479</x>
+     <x>589</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -969,7 +969,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_nds_2">
    <property name="geometry">
     <rect>
-     <x>403</x>
+     <x>513</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -1008,7 +1008,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="Status_2">
    <property name="geometry">
     <rect>
-     <x>415</x>
+     <x>525</x>
      <y>498</y>
      <width>141</width>
      <height>31</height>
@@ -1030,7 +1030,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_torm_2">
    <property name="geometry">
     <rect>
-     <x>479</x>
+     <x>589</x>
      <y>381</y>
      <width>11</width>
      <height>11</height>
@@ -1069,7 +1069,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_nup_2">
    <property name="geometry">
     <rect>
-     <x>418</x>
+     <x>528</x>
      <y>416</y>
      <width>11</width>
      <height>11</height>
@@ -1108,7 +1108,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_shib_2">
    <property name="geometry">
     <rect>
-     <x>446</x>
+     <x>556</x>
      <y>433</y>
      <width>17</width>
      <height>19</height>
@@ -1147,7 +1147,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="G_zag_2">
    <property name="geometry">
     <rect>
-     <x>434</x>
+     <x>544</x>
      <y>402</y>
      <width>42</width>
      <height>20</height>
@@ -1169,7 +1169,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_sgr_2">
    <property name="geometry">
     <rect>
-     <x>566</x>
+     <x>676</x>
      <y>556</y>
      <width>8</width>
      <height>20</height>
@@ -1209,7 +1209,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_nup_2">
    <property name="geometry">
     <rect>
-     <x>418</x>
+     <x>528</x>
      <y>428</y>
      <width>11</width>
      <height>11</height>
@@ -1249,7 +1249,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_sir_2">
    <property name="geometry">
     <rect>
-     <x>559</x>
+     <x>669</x>
      <y>433</y>
      <width>17</width>
      <height>19</height>
@@ -1288,7 +1288,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_sgr_z_2">
    <property name="geometry">
     <rect>
-     <x>566</x>
+     <x>676</x>
      <y>575</y>
      <width>25</width>
      <height>20</height>
@@ -1327,7 +1327,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="Q_all_2">
    <property name="geometry">
     <rect>
-     <x>527</x>
+     <x>637</x>
      <y>402</y>
      <width>42</width>
      <height>20</height>
@@ -1349,7 +1349,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_ndw_2">
    <property name="geometry">
     <rect>
-     <x>418</x>
+     <x>528</x>
      <y>440</y>
      <width>11</width>
      <height>11</height>
@@ -1388,7 +1388,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_nds_2">
    <property name="geometry">
     <rect>
-     <x>419</x>
+     <x>529</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -1425,7 +1425,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="I_m_3">
    <property name="geometry">
     <rect>
-     <x>669</x>
+     <x>779</x>
      <y>307</y>
      <width>51</width>
      <height>20</height>
@@ -1447,7 +1447,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="Ob_3">
    <property name="geometry">
     <rect>
-     <x>669</x>
+     <x>779</x>
      <y>270</y>
      <width>51</width>
      <height>20</height>
@@ -1469,7 +1469,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_ndw_3">
    <property name="geometry">
     <rect>
-     <x>627</x>
+     <x>737</x>
      <y>451</y>
      <width>11</width>
      <height>11</height>
@@ -1508,7 +1508,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_nvs_3">
    <property name="geometry">
     <rect>
-     <x>642</x>
+     <x>752</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -1547,7 +1547,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_sgr_b_3">
    <property name="geometry">
     <rect>
-     <x>758</x>
+     <x>868</x>
      <y>575</y>
      <width>25</width>
      <height>20</height>
@@ -1585,7 +1585,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_pr_3">
    <property name="geometry">
     <rect>
-     <x>745</x>
+     <x>855</x>
      <y>433</y>
      <width>17</width>
      <height>19</height>
@@ -1623,7 +1623,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_kon_3">
    <property name="geometry">
     <rect>
-     <x>688</x>
+     <x>798</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -1662,7 +1662,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_nds_3">
    <property name="geometry">
     <rect>
-     <x>612</x>
+     <x>722</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -1701,7 +1701,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="Status_3">
    <property name="geometry">
     <rect>
-     <x>624</x>
+     <x>734</x>
      <y>498</y>
      <width>141</width>
      <height>31</height>
@@ -1723,7 +1723,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_torm_3">
    <property name="geometry">
     <rect>
-     <x>688</x>
+     <x>798</x>
      <y>381</y>
      <width>11</width>
      <height>11</height>
@@ -1762,7 +1762,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_nup_3">
    <property name="geometry">
     <rect>
-     <x>627</x>
+     <x>737</x>
      <y>416</y>
      <width>11</width>
      <height>11</height>
@@ -1801,7 +1801,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_shib_3">
    <property name="geometry">
     <rect>
-     <x>655</x>
+     <x>765</x>
      <y>433</y>
      <width>17</width>
      <height>19</height>
@@ -1840,7 +1840,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="G_zag_3">
    <property name="geometry">
     <rect>
-     <x>643</x>
+     <x>753</x>
      <y>402</y>
      <width>42</width>
      <height>20</height>
@@ -1862,7 +1862,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_sgr_3">
    <property name="geometry">
     <rect>
-     <x>775</x>
+     <x>885</x>
      <y>556</y>
      <width>8</width>
      <height>20</height>
@@ -1902,7 +1902,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_nup_3">
    <property name="geometry">
     <rect>
-     <x>627</x>
+     <x>737</x>
      <y>428</y>
      <width>11</width>
      <height>11</height>
@@ -1942,7 +1942,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_sir_3">
    <property name="geometry">
     <rect>
-     <x>768</x>
+     <x>878</x>
      <y>433</y>
      <width>17</width>
      <height>19</height>
@@ -1981,7 +1981,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_sgr_z_3">
    <property name="geometry">
     <rect>
-     <x>775</x>
+     <x>885</x>
      <y>575</y>
      <width>25</width>
      <height>20</height>
@@ -2020,7 +2020,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="Q_all_3">
    <property name="geometry">
     <rect>
-     <x>736</x>
+     <x>846</x>
      <y>402</y>
      <width>42</width>
      <height>20</height>
@@ -2042,7 +2042,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_ndw_3">
    <property name="geometry">
     <rect>
-     <x>627</x>
+     <x>737</x>
      <y>440</y>
      <width>11</width>
      <height>11</height>
@@ -2081,7 +2081,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_nds_3">
    <property name="geometry">
     <rect>
-     <x>628</x>
+     <x>738</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -2118,7 +2118,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="I_m_4">
    <property name="geometry">
     <rect>
-     <x>878</x>
+     <x>988</x>
      <y>307</y>
      <width>51</width>
      <height>20</height>
@@ -2140,7 +2140,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="Ob_4">
    <property name="geometry">
     <rect>
-     <x>878</x>
+     <x>988</x>
      <y>270</y>
      <width>51</width>
      <height>20</height>
@@ -2162,7 +2162,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_ndw_4">
    <property name="geometry">
     <rect>
-     <x>836</x>
+     <x>946</x>
      <y>451</y>
      <width>11</width>
      <height>11</height>
@@ -2201,7 +2201,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_nvs_4">
    <property name="geometry">
     <rect>
-     <x>851</x>
+     <x>961</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -2240,7 +2240,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_sgr_b_4">
    <property name="geometry">
     <rect>
-     <x>967</x>
+     <x>1077</x>
      <y>575</y>
      <width>25</width>
      <height>20</height>
@@ -2278,7 +2278,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_pr_4">
    <property name="geometry">
     <rect>
-     <x>954</x>
+     <x>1064</x>
      <y>433</y>
      <width>17</width>
      <height>19</height>
@@ -2316,7 +2316,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_kon_4">
    <property name="geometry">
     <rect>
-     <x>897</x>
+     <x>1007</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -2355,7 +2355,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_nds_4">
    <property name="geometry">
     <rect>
-     <x>821</x>
+     <x>931</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -2394,7 +2394,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="Status_4">
    <property name="geometry">
     <rect>
-     <x>833</x>
+     <x>943</x>
      <y>498</y>
      <width>141</width>
      <height>31</height>
@@ -2416,7 +2416,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_torm_4">
    <property name="geometry">
     <rect>
-     <x>897</x>
+     <x>1007</x>
      <y>381</y>
      <width>11</width>
      <height>11</height>
@@ -2455,7 +2455,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_nup_4">
    <property name="geometry">
     <rect>
-     <x>836</x>
+     <x>946</x>
      <y>416</y>
      <width>11</width>
      <height>11</height>
@@ -2494,7 +2494,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_shib_4">
    <property name="geometry">
     <rect>
-     <x>864</x>
+     <x>974</x>
      <y>433</y>
      <width>17</width>
      <height>19</height>
@@ -2533,7 +2533,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="G_zag_4">
    <property name="geometry">
     <rect>
-     <x>852</x>
+     <x>962</x>
      <y>402</y>
      <width>42</width>
      <height>20</height>
@@ -2555,7 +2555,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_sgr_4">
    <property name="geometry">
     <rect>
-     <x>984</x>
+     <x>1094</x>
      <y>556</y>
      <width>8</width>
      <height>20</height>
@@ -2595,7 +2595,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_nup_4">
    <property name="geometry">
     <rect>
-     <x>836</x>
+     <x>946</x>
      <y>428</y>
      <width>11</width>
      <height>11</height>
@@ -2635,7 +2635,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_sir_4">
    <property name="geometry">
     <rect>
-     <x>977</x>
+     <x>1087</x>
      <y>433</y>
      <width>17</width>
      <height>19</height>
@@ -2674,7 +2674,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="X_sgr_z_4">
    <property name="geometry">
     <rect>
-     <x>984</x>
+     <x>1094</x>
      <y>575</y>
      <width>25</width>
      <height>20</height>
@@ -2713,7 +2713,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="Q_all_4">
    <property name="geometry">
     <rect>
-     <x>945</x>
+     <x>1055</x>
      <y>402</y>
      <width>42</width>
      <height>20</height>
@@ -2735,7 +2735,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_ndw_4">
    <property name="geometry">
     <rect>
-     <x>836</x>
+     <x>946</x>
      <y>440</y>
      <width>11</width>
      <height>11</height>
@@ -2774,7 +2774,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="Y_nds_4">
    <property name="geometry">
     <rect>
-     <x>837</x>
+     <x>947</x>
      <y>465</y>
      <width>11</width>
      <height>11</height>
@@ -2806,304 +2806,6 @@ QCheckBox:indicator
    </property>
    <property name="text">
     <string>CheckBox</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="I_m_5">
-   <property name="geometry">
-    <rect>
-     <x>1087</x>
-     <y>307</y>
-     <width>51</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="text">
-    <string>250</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="Ob_5">
-   <property name="geometry">
-    <rect>
-     <x>1087</x>
-     <y>270</y>
-     <width>51</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="text">
-    <string>1000</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="X_ndw_5">
-   <property name="geometry">
-    <rect>
-     <x>1045</x>
-     <y>451</y>
-     <width>11</width>
-     <height>11</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 11px;
-min-height: 11px;
-max-width: 11px;
-max-height: 11px;
-}
-QCheckBox:checked
-{
-	image: url(:/indicators/lamp_on.png);
-}
-
-QCheckBox:unchecked
-{
-	image: url(:/indicators/lamf_off.png);
-	
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 11px;
-	width: 11px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="X_nvs_5">
-   <property name="geometry">
-    <rect>
-     <x>1060</x>
-     <y>465</y>
-     <width>11</width>
-     <height>11</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 11px;
-min-height: 11px;
-max-width: 11px;
-max-height: 11px;
-}
-QCheckBox:checked
-{
-	image: url(:/indicators/lamp_on.png);
-}
-
-QCheckBox:unchecked
-{
-	image: url(:/indicators/lamf_off.png);
-	
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 11px;
-	width: 11px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="X_sgr_b_5">
-   <property name="geometry">
-    <rect>
-     <x>1176</x>
-     <y>575</y>
-     <width>25</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 25px;
-min-height: 20px;
-max-width: 25px;
-max-height: 20px;
-}
-QCheckBox:checked
-{
-	image: url(:/indicators/sgr_c_v_on.png);
-}
-
-QCheckBox:unchecked
-{
-	image: url(:/indicators/sgr_c_v_off.png);
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 25px;
-	width: 20px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="Y_pr_5">
-   <property name="geometry">
-    <rect>
-     <x>1163</x>
-     <y>433</y>
-     <width>17</width>
-     <height>19</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 17px;
-min-height: 19px;
-max-width: 17px;
-max-height: 19px;
-}
-QCheckBox:unchecked
-{
-	
-	image: url(:/indicators/valve_right_off_off.png);
-}
-QCheckBox:checked
-{
-	image: url(:/indicators/valve_right_on.png);
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 17px;
-	width: 19px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="X_kon_5">
-   <property name="geometry">
-    <rect>
-     <x>1106</x>
-     <y>465</y>
-     <width>11</width>
-     <height>11</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 11px;
-min-height: 11px;
-max-width: 11px;
-max-height: 11px;
-}
-QCheckBox:checked
-{
-	image: url(:/indicators/lamp_on.png);
-}
-
-QCheckBox:unchecked
-{
-	image: url(:/indicators/lamf_off.png);
-	
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 11px;
-	width: 11px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="X_nds_5">
-   <property name="geometry">
-    <rect>
-     <x>1030</x>
-     <y>465</y>
-     <width>11</width>
-     <height>11</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 11px;
-min-height: 11px;
-max-width: 11px;
-max-height: 11px;
-}
-QCheckBox:checked
-{
-	image: url(:/indicators/lamp_on.png);
-}
-
-QCheckBox:unchecked
-{
-	image: url(:/indicators/lamf_off.png);
-	
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 11px;
-	width: 11px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="Status_5">
-   <property name="geometry">
-    <rect>
-     <x>1042</x>
-     <y>498</y>
-     <width>141</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="text">
-    <string>Вивантаження</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QCheckBox" name="X_torm_5">
@@ -3145,366 +2847,10 @@ QCheckBox:indicator
     <string>CheckBox</string>
    </property>
   </widget>
-  <widget class="QCheckBox" name="X_nup_5">
-   <property name="geometry">
-    <rect>
-     <x>1045</x>
-     <y>416</y>
-     <width>11</width>
-     <height>11</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 11px;
-min-height: 11px;
-max-width: 11px;
-max-height: 11px;
-}
-QCheckBox:checked
-{
-	image: url(:/indicators/lamp_on.png);
-}
-
-QCheckBox:unchecked
-{
-	image: url(:/indicators/lamf_off.png);
-	
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 11px;
-	width: 11px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="X_shib_5">
-   <property name="geometry">
-    <rect>
-     <x>1073</x>
-     <y>433</y>
-     <width>17</width>
-     <height>19</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 17px;
-min-height: 19px;
-max-width: 17px;
-max-height: 19px;
-}
-QCheckBox:checked
-{
-image: url(:/indicators/valve_left_on.png);
-}
-
-QCheckBox:unchecked
-{
-	
-	image: url(:/indicators/valve_left_off.png);
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 17px;
-	width: 19px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="G_zag_5">
-   <property name="geometry">
-    <rect>
-     <x>1061</x>
-     <y>402</y>
-     <width>42</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="text">
-    <string>12.5</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="Y_sgr_5">
-   <property name="geometry">
-    <rect>
-     <x>1193</x>
-     <y>556</y>
-     <width>8</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 8px;
-min-height: 20px;
-max-width: 8px;
-max-height: 20px;
-}
-QCheckBox:checked
-{
-	
-	image: url(:/indicators/sgr_v_g.png);
-}
-
-QCheckBox:unchecked
-{
-	
-	image: url(:/indicators/sgr_v_w.png);
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 8px;
-	width: 20px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="Y_nup_5">
-   <property name="geometry">
-    <rect>
-     <x>1045</x>
-     <y>428</y>
-     <width>11</width>
-     <height>11</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 11px;
-min-height: 11px;
-max-width: 11px;
-max-height: 11px;
-}
-QCheckBox:checked
-{
-	
-	image: url(:/indicators/ar_up_on.png);
-}
-
-QCheckBox:unchecked
-{
-	image: url(:/indicators/ar_up_off.png);
-	
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 11px;
-	width: 11px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="Y_sir_5">
-   <property name="geometry">
-    <rect>
-     <x>1186</x>
-     <y>433</y>
-     <width>17</width>
-     <height>19</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 17px;
-min-height: 19px;
-max-width: 17px;
-max-height: 19px;
-}
-QCheckBox:checked
-{
-image: url(:/indicators/valve_left_on.png);
-}
-
-QCheckBox:unchecked
-{
-	
-	image: url(:/indicators/valve_left_off.png);
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 17px;
-	width: 19px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="X_sgr_z_5">
-   <property name="geometry">
-    <rect>
-     <x>1193</x>
-     <y>575</y>
-     <width>25</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 25px;
-min-height: 20px;
-max-width: 25px;
-max-height: 20px;
-}
-QCheckBox:checked
-{
-	image: url(:/indicators/sgr_c_g_on.png);
-}
-
-QCheckBox:unchecked
-{
-	
-	image: url(:/indicators/sgr_c_g_off.png);
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 25px;
-	width: 20px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="Q_all_5">
-   <property name="geometry">
-    <rect>
-     <x>1154</x>
-     <y>402</y>
-     <width>42</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="text">
-    <string>12.5</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="Y_ndw_5">
-   <property name="geometry">
-    <rect>
-     <x>1045</x>
-     <y>440</y>
-     <width>11</width>
-     <height>11</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 11px;
-min-height: 11px;
-max-width: 11px;
-max-height: 11px;
-}
-QCheckBox:unchecked
-{
-	
-	image: url(:/indicators/ar_down_off.png);
-}
-QCheckBox:checked
-{
-	
-	image: url(:/indicators/ar_down_on.png);
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 11px;
-	width: 11px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="Y_nds_5">
-   <property name="geometry">
-    <rect>
-     <x>1046</x>
-     <y>465</y>
-     <width>11</width>
-     <height>11</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 11px;
-min-height: 11px;
-max-width: 11px;
-max-height: 11px;
-}
-QCheckBox:unchecked
-{
-	image: url(:/indicators/ar_right_on.png);
-}
-QCheckBox:checked
-{
-	image: url(:/indicators/ar_left_on.png);
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 11px;
-	width: 11px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
   <widget class="QFrame" name="trcf_1">
    <property name="geometry">
     <rect>
-     <x>96</x>
+     <x>232</x>
      <y>640</y>
      <width>235</width>
      <height>180</height>
@@ -3520,7 +2866,7 @@ QCheckBox:indicator
   <widget class="QFrame" name="trcf_2">
    <property name="geometry">
     <rect>
-     <x>332</x>
+     <x>468</x>
      <y>640</y>
      <width>235</width>
      <height>180</height>
@@ -3536,7 +2882,7 @@ QCheckBox:indicator
   <widget class="QFrame" name="trcf_3">
    <property name="geometry">
     <rect>
-     <x>568</x>
+     <x>704</x>
      <y>640</y>
      <width>235</width>
      <height>180</height>
@@ -3552,23 +2898,7 @@ QCheckBox:indicator
   <widget class="QFrame" name="trcf_4">
    <property name="geometry">
     <rect>
-     <x>804</x>
-     <y>640</y>
-     <width>235</width>
-     <height>180</height>
-    </rect>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::StyledPanel</enum>
-   </property>
-   <property name="frameShadow">
-    <enum>QFrame::Raised</enum>
-   </property>
-  </widget>
-  <widget class="QFrame" name="trcf_5">
-   <property name="geometry">
-    <rect>
-     <x>1040</x>
+     <x>940</x>
      <y>640</y>
      <width>235</width>
      <height>180</height>
@@ -3584,8 +2914,8 @@ QCheckBox:indicator
   <widget class="QProgressBar" name="pb_V_05">
    <property name="geometry">
     <rect>
-     <x>781</x>
-     <y>63</y>
+     <x>681</x>
+     <y>60</y>
      <width>20</width>
      <height>121</height>
     </rect>
@@ -3778,7 +3108,7 @@ QCheckBox:indicator
   <widget class="QProgressBar" name="pb_V_06">
    <property name="geometry">
     <rect>
-     <x>766</x>
+     <x>686</x>
      <y>261</y>
      <width>20</width>
      <height>81</height>
@@ -4360,10 +3690,10 @@ QCheckBox:indicator
   <widget class="QPushButton" name="bn_Cf_1">
    <property name="geometry">
     <rect>
-     <x>268</x>
-     <y>569</y>
+     <x>378</x>
+     <y>571</y>
      <width>64</width>
-     <height>32</height>
+     <height>28</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -4386,10 +3716,10 @@ QCheckBox:indicator
   <widget class="QPushButton" name="bn_Cf_2">
    <property name="geometry">
     <rect>
-     <x>475</x>
-     <y>569</y>
+     <x>585</x>
+     <y>571</y>
      <width>64</width>
-     <height>32</height>
+     <height>28</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -4412,10 +3742,10 @@ QCheckBox:indicator
   <widget class="QPushButton" name="bn_Cf_3">
    <property name="geometry">
     <rect>
-     <x>682</x>
-     <y>569</y>
+     <x>792</x>
+     <y>571</y>
      <width>64</width>
-     <height>32</height>
+     <height>28</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -4438,40 +3768,14 @@ QCheckBox:indicator
   <widget class="QPushButton" name="bn_Cf_4">
    <property name="geometry">
     <rect>
-     <x>898</x>
-     <y>569</y>
+     <x>1008</x>
+     <y>571</y>
      <width>64</width>
-     <height>32</height>
+     <height>28</height>
     </rect>
    </property>
    <property name="toolTip">
     <string>Jump to centrif 4</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="icon">
-    <iconset resource="mnemo/mnemo.qrc">
-     <normaloff>:/indicators/cf_bn.png</normaloff>:/indicators/cf_bn.png</iconset>
-   </property>
-   <property name="iconSize">
-    <size>
-     <width>20</width>
-     <height>20</height>
-    </size>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="bn_Cf_5">
-   <property name="geometry">
-    <rect>
-     <x>1101</x>
-     <y>569</y>
-     <width>64</width>
-     <height>32</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string>Jump to centrif 5</string>
    </property>
    <property name="text">
     <string/>
@@ -4534,7 +3838,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="le_V_02">
    <property name="geometry">
     <rect>
-     <x>194</x>
+     <x>274</x>
      <y>270</y>
      <width>42</width>
      <height>20</height>
@@ -4556,8 +3860,8 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="le_V_05">
    <property name="geometry">
     <rect>
-     <x>805</x>
-     <y>61</y>
+     <x>703</x>
+     <y>60</y>
      <width>42</width>
      <height>20</height>
     </rect>
@@ -4578,7 +3882,7 @@ QCheckBox:indicator
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>81</x>
+     <x>191</x>
      <y>337</y>
      <width>52</width>
      <height>14</height>
@@ -4591,7 +3895,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="le_V_01">
    <property name="geometry">
     <rect>
-     <x>85</x>
+     <x>195</x>
      <y>357</y>
      <width>42</width>
      <height>20</height>
@@ -4613,7 +3917,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="le_V_03">
    <property name="geometry">
     <rect>
-     <x>85</x>
+     <x>195</x>
      <y>377</y>
      <width>42</width>
      <height>20</height>
@@ -4635,7 +3939,7 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>81</x>
+     <x>191</x>
      <y>434</y>
      <width>52</width>
      <height>14</height>
@@ -4648,7 +3952,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="le_V_04">
    <property name="geometry">
     <rect>
-     <x>85</x>
+     <x>195</x>
      <y>447</y>
      <width>42</width>
      <height>20</height>
@@ -4670,7 +3974,7 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="le_V_06">
    <property name="geometry">
     <rect>
-     <x>789</x>
+     <x>709</x>
      <y>261</y>
      <width>42</width>
      <height>20</height>
@@ -4692,8 +3996,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Y_01">
    <property name="geometry">
     <rect>
-     <x>804</x>
-     <y>213</y>
+     <x>707</x>
+     <y>214</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -4730,8 +4034,8 @@ QCheckBox:indicator
   <widget class="QPushButton" name="bn_X_03">
    <property name="geometry">
     <rect>
-     <x>780</x>
-     <y>200</y>
+     <x>680</x>
+     <y>201</y>
      <width>28</width>
      <height>42</height>
     </rect>
@@ -4753,8 +4057,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_AM_01">
    <property name="geometry">
     <rect>
-     <x>760</x>
-     <y>210</y>
+     <x>660</x>
+     <y>211</y>
      <width>18</width>
      <height>20</height>
     </rect>
@@ -4789,8 +4093,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_X_01">
    <property name="geometry">
     <rect>
-     <x>1204</x>
-     <y>305</y>
+     <x>1144</x>
+     <y>306</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -4827,7 +4131,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_X_05">
    <property name="geometry">
     <rect>
-     <x>740</x>
+     <x>660</x>
      <y>310</y>
      <width>16</width>
      <height>16</height>
@@ -4865,7 +4169,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_X_06">
    <property name="geometry">
     <rect>
-     <x>740</x>
+     <x>660</x>
      <y>290</y>
      <width>16</width>
      <height>16</height>
@@ -4903,7 +4207,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_X_07">
    <property name="geometry">
     <rect>
-     <x>740</x>
+     <x>660</x>
      <y>270</y>
      <width>16</width>
      <height>16</height>
@@ -4992,7 +4296,7 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_30">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>290</x>
      <y>295</y>
      <width>16</width>
      <height>16</height>
@@ -5005,7 +4309,7 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_31">
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>240</x>
      <y>363</y>
      <width>16</width>
      <height>16</height>
@@ -5018,7 +4322,7 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>240</x>
      <y>376</y>
      <width>41</width>
      <height>21</height>
@@ -5031,7 +4335,7 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>240</x>
      <y>449</y>
      <width>41</width>
      <height>21</height>

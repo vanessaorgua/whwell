@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     QVector<RxModbus*> r;
     QVector<IoDev*> src; // джерела даних.
 
-    for(int i=0;i<5;++i)
+    for(int i=0;i<4;++i)
     {
         RxModbus *t= new RxModbus;
         t->setObjectName(QString("cf_%1").arg(i+1));
@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
     }
     Logging l(src,1010); // писалка історіх
     QStringList tables;
-    tables << "Cf_1" << "Cf_2" << "Cf_3" << "Cf_4" << "Cf_5" << "trend" ;
+    tables << "Cf_1" << "Cf_2" << "Cf_3" << "Cf_4" << "trend" ;
     l.setTables(tables);
 
     IoNetServer s(src); // мережевий інтерфейс
@@ -61,9 +61,9 @@ int main(int argc, char *argv[])
     //al.loadList(":/text/Linovitsa/filters/text/alert.txt");
     //QObject::connect(&r,SIGNAL(updateData()),&al,SLOT(checkAlert()));
     //QObject::connect(&al,SIGNAL(newAlert(QString)),&s,SLOT(sendAlert(QString)));
-    for(int i=0;i<6;++i)
+    for(int i=0;i<5;++i)
     {
-        if(i<5) QObject::connect(r[i],SIGNAL(updateData()),&rep,SLOT(checkState()));
+        if(i<4) QObject::connect(r[i],SIGNAL(updateData()),&rep,SLOT(checkState()));
         QObject::connect(r[i],SIGNAL(Alert(QString)),&s,SLOT(sendAlert(QString)));
         r[i]->start();
     }

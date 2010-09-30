@@ -62,3 +62,4 @@ OTHER_FILES += text/alert.txt \
     text/drv
 win32:QTPLUGIN += qsvg
 win32:CONFIG += static
+PRE_TARGETDEPS += ../../../lib/librcada_client.a

@@ -21,3 +21,4 @@ RESOURCES += test.qrc
 QMAKE_LIBDIR += ../../../lib
 LIBS += -lrcada
 INCLUDEPATH += ../../../lib/include
+PRE_TARGETDEPS += ../../../lib/librcada.a

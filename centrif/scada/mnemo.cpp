@@ -22,12 +22,11 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
     trc << m_ui->trcf_1
         << m_ui->trcf_2
         << m_ui->trcf_3
-        << m_ui->trcf_4
-        << m_ui->trcf_5 ;
+        << m_ui->trcf_4   ;
     QVector<QColor> clr;
     clr << Qt::green << Qt::red << Qt::yellow << Qt::cyan << Qt::black << Qt::black << Qt::black << Qt::black;
 
-    for(int i=0;i<5;++i)
+    for(int i=0;i<4;++i)
     {
         TrendChart *t=new TrendChart(trc[i],600,1);
         trcf<< t;
@@ -107,23 +106,6 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
         << m_ui->Y_sgr_4
         << m_ui->Y_sir_4 ;
     cb << tmp;
-    tmp.clear();
-    tmp << m_ui->X_kon_5
-        << m_ui->X_nds_5
-        << m_ui->X_ndw_5
-        << m_ui->X_nup_5
-        << m_ui->X_nvs_5
-        << m_ui->X_sgr_b_5
-        << m_ui->X_sgr_z_5
-        << m_ui->X_shib_5
-        << m_ui->X_torm_5
-        << m_ui->Y_nds_5
-        << m_ui->Y_ndw_5
-        << m_ui->Y_nup_5
-        << m_ui->Y_pr_5
-        << m_ui->Y_sgr_5
-        << m_ui->Y_sir_5 ;
-    cb << tmp;
 }
     cb_name << "X_kon"
             << "X_nds"
@@ -173,13 +155,6 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
             << m_ui->Status_4;
         le << tmp;
 
-        tmp.clear();
-        tmp << m_ui->Ob_5
-            << m_ui->G_zag_5
-            << m_ui->Q_all_5
-            << m_ui->I_m_5
-            << m_ui->Status_5;
-        le << tmp;
     }
 
 
@@ -217,7 +192,6 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
     connect(m_ui->bn_Cf_2,SIGNAL(clicked()),p,SLOT(showOneMnemo()));
     connect(m_ui->bn_Cf_3,SIGNAL(clicked()),p,SLOT(showOneMnemo()));
     connect(m_ui->bn_Cf_4,SIGNAL(clicked()),p,SLOT(showOneMnemo()));
-    connect(m_ui->bn_Cf_5,SIGNAL(clicked()),p,SLOT(showOneMnemo()));
 
     // це відноситься до загальних параметрів
     le_cm
@@ -261,7 +235,7 @@ void Mnemo::updateDataRaw(int i)
     }
     qDebug() << r;*/
 
-    if(i<5) // якщо сигнал від контролера центрифуг
+    if(i<4) // якщо сигнал від контролера центрифуг
     {
         //qDebug() << "elements" << cb[i].size() << cb_name.size();
         int j=0;
@@ -281,7 +255,7 @@ void Mnemo::updateDataRaw(int i)
         le[i][4]->setText(State[s[i]->getValue16("Status")+1]);
 
     }
-    else if(i==5)
+    else if(i==4)
     {
     // це загальні парамерти
         foreach(QProgressBar*p,pb_cm)
@@ -317,7 +291,7 @@ void Mnemo::updateTrChart() // поновлюємо дані на графічк
 {
     int n=s.size();
     // qDebug() << "updateTrChart() " << n;
-    if(n>5) n=5;
+    if(n>4) n=4;
     for(int i=0;i<n;++i)
     {
         double sgr;
