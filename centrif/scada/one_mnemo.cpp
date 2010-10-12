@@ -54,25 +54,23 @@ OneMnemo::OneMnemo(IoNetClient &src,QVector<TrendChart*> &masterTrChart, int cfN
     State << tr("Тест")        //-1
           << tr("Зупинено")    // 0
           << tr("Пуск")        // 1
-          << tr("Очікування")  // 2
-          << tr("Завантаження") // 3
+          << tr("Пром. сит") // 2
+          << tr("Очікування")  // 3
           << tr("Завантаження") // 4
-          << tr("Розгон") //5
-          << tr("Пром. лотка") // 6
-          << tr("Фугування") // 7
-          << tr("Пром. сироп.") // 8
-          << tr("Пром. сироп.") // 9
+          << tr("Фугування") // 5
+          << tr("Пром. сироп.") // 6
+          << tr("Пром. сироп.") // 7
+          << tr("Пром. цукру") // 8
+          << tr("Пром. цукру") // 9
           << tr("Пром. цукру") // 10
           << tr("Пром. цукру") // 11
           << tr("Пром. цукру") // 12
-          << tr("Пром. цукру") // 13
-          << tr("Пром. цукру") // 14
-          << tr("Сушіння") // 15
-          << tr("Гальмування") // 16
-          << tr("Вивантаження") // 17
-          << tr("Пром. сит") // 18
-          << tr("Вібрація") // 19
-          << tr("Синхронізація"); // 20
+          << tr("Сушіння") // 13
+          << tr("Гальмування") // 14
+          << tr("Вивантаження") // 15
+          << tr("Синхронізація") // 16
+          << tr("Вібрація"); // 17
+
 
         cb_state
                 << m_ui->cb_stop
@@ -101,14 +99,12 @@ OneMnemo::OneMnemo(IoNetClient &src,QVector<TrendChart*> &masterTrChart, int cfN
     connect(m_ui->cf_2,SIGNAL(clicked()),this,SLOT(changeCf()));
     connect(m_ui->cf_3,SIGNAL(clicked()),this,SLOT(changeCf()));
     connect(m_ui->cf_4,SIGNAL(clicked()),this,SLOT(changeCf()));
-    connect(m_ui->cf_5,SIGNAL(clicked()),this,SLOT(changeCf()));
 
     QVector<QRadioButton *> cf;
     cf << m_ui->cf_1
             << m_ui->cf_2
             << m_ui->cf_3
-            << m_ui->cf_4
-            << m_ui->cf_5;
+            << m_ui->cf_4;
 
     cf[nCf]->setChecked(true);
 
@@ -147,21 +143,70 @@ void OneMnemo::updateDataRaw(int i) // слот обновляє дані на �
         m_ui->Q_reg->setText(QString("%1").arg(s[i]->getValueFloat("Q_reg"),4,'f',1));
 
 
-        m_ui->Status->setText(State[s[i]->getValue16("Status")+1]);
-
         m_ui->Ob->setText(QString("%1").arg(s[i]->getValue16("Ob")));
-        m_ui->I_m->setText(QString("%1").arg(s[i]->getValue16("I_m")));
+        m_ui->I_m->setText(QString("%1").arg(s[i]->getValueFloat("I_m"),4,'f',0));
         m_ui->T_prl->setText(QString("%1").arg(s[i]->getValue16("T_prl")));
         m_ui->Fott->setText(QString("%1").arg(s[i]->getValue16("Fott")));
         m_ui->T_fug->setText(QString("%1").arg(s[i]->getValue16("T_fug")));
         //m_ui->T_sir->setText(QString("%1").arg(s[i]->getValue16("T_sir")));
         m_ui->T_pr->setText(QString("%1").arg(s[i]->getValue16("T_pr")));
-        m_ui->Imp->setText(QString("%1").arg(s[i]->getValue16("Imp")+1));
-        m_ui->T_p_zd->setText(QString("%1").arg(s[i]->getValue16("T_p_zd")+1));
-        m_ui->T_nt->setText(QString("%1").arg(s[i]->getValue16("T_nt")+1));
-        m_ui->T_reg->setText(QString("%1").arg(s[i]->getValue16("T_reg")+1));
-        m_ui->T_all->setText(QString("%1").arg(s[i]->getValue16("T_all")+1));
+        m_ui->Imp->setText(QString("%1").arg(s[i]->getValue16("Imp")));
+        m_ui->T_p_zd->setText(QString("%1").arg(s[i]->getValue16("T_p_zd")));
+        m_ui->T_nt->setText(QString("%1").arg(s[i]->getValue16("T_nt")));
+        m_ui->T_reg->setText(QString("%1").arg(s[i]->getValue16("T_reg")));
+        m_ui->T_all->setText(QString("%1").arg(s[i]->getValue16("T_all")));
 
+        int Status = s[i]->getValue16("Status");
+        m_ui->Status->setText(State[Status+1]);
+
+        m_ui->cb_prl->setChecked(s[i]->getValue16("Y_prl"));
+
+        if(Status!=lastStatus)
+        {
+            foreach(QCheckBox *cb,cb_state)
+            {
+                cb->setChecked(false);
+                switch(Status)
+                {
+                    case 0:
+                        m_ui->cb_stop->setChecked(true);
+                        break;
+                case 2:
+                    m_ui->cb_reg->setChecked(true);
+                    break;
+                case 3:
+                    m_ui->cb_wait->setChecked(true);
+                    break;
+                case 4:
+                    m_ui->cb_load->setChecked(true);
+                    break;
+                case 5:
+                    m_ui->cb_fug->setChecked(true);
+                    break;
+                case 6:
+                case 7:
+                    m_ui->cb_sir->setChecked(true);
+                    break;
+                case 8:
+                case 9:
+                case 10:
+                case 11:
+                case 12:
+                    m_ui->cb_pr->setChecked(true);
+                    break;
+                case 13:
+                case 14:
+                    m_ui->cb_nt->setChecked(true);
+                    break;
+                case 15:
+                    m_ui->cb_vigr->setChecked(true);
+                    break;
+                default:
+                    break;
+
+                }
+            }
+        }
     }
 }
 

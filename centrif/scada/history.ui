@@ -68,13 +68,6 @@
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="Cf_50cf5">
-           <property name="text">
-            <string>Центрифуга №5</string>
-           </property>
-          </widget>
-         </item>
-         <item>
           <spacer name="verticalSpacer">
            <property name="orientation">
             <enum>Qt::Vertical</enum>
@@ -135,9 +128,37 @@
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="Cf_50drv5">
+          <widget class="QLabel" name="label_3">
            <property name="text">
-            <string>Центрифуга №5</string>
+            <string>Робота ножа</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Cf_10upload1">
+           <property name="text">
+            <string>Центрифуга №1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Cf_20upload2">
+           <property name="text">
+            <string>Центрифуга №2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Cf_30upload3">
+           <property name="text">
+            <string>Центрифуга №3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Cf_40upload4">
+           <property name="text">
+            <string>Центрифуга №4</string>
            </property>
           </widget>
          </item>
@@ -167,16 +188,9 @@
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_3">
          <item>
-          <widget class="QPushButton" name="trend0trend6">
+          <widget class="QPushButton" name="trend0trend5">
            <property name="text">
             <string>Параметри</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="trend0shib6">
-           <property name="text">
-            <string> Шибер</string>
            </property>
           </widget>
          </item>

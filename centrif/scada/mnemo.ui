@@ -2962,9 +2962,9 @@ QCheckBox:indicator
       <colorrole role="Window">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>
@@ -3018,9 +3018,9 @@ QCheckBox:indicator
       <colorrole role="Window">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>
@@ -3065,18 +3065,18 @@ QCheckBox:indicator
       <colorrole role="Base">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="Window">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>
@@ -3156,9 +3156,9 @@ QCheckBox:indicator
       <colorrole role="Window">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>
@@ -3212,9 +3212,9 @@ QCheckBox:indicator
       <colorrole role="Window">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>
@@ -3259,18 +3259,18 @@ QCheckBox:indicator
       <colorrole role="Base">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="Window">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>
@@ -3350,9 +3350,9 @@ QCheckBox:indicator
       <colorrole role="Window">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>
@@ -3406,9 +3406,9 @@ QCheckBox:indicator
       <colorrole role="Window">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>
@@ -3453,18 +3453,18 @@ QCheckBox:indicator
       <colorrole role="Base">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="Window">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>
@@ -3544,9 +3544,9 @@ QCheckBox:indicator
       <colorrole role="Window">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>
@@ -3600,9 +3600,9 @@ QCheckBox:indicator
       <colorrole role="Window">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>
@@ -3647,18 +3647,18 @@ QCheckBox:indicator
       <colorrole role="Base">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="Window">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>228</red>
-         <green>228</green>
-         <blue>228</blue>
+         <red>88</red>
+         <green>88</green>
+         <blue>88</blue>
         </color>
        </brush>
       </colorrole>

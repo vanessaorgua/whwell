@@ -46,6 +46,7 @@ private:
 
     QStringList State; // список станів
     QVector<TrendChart*> &mTrChart;
+    int lastStatus;
 };
 
 #endif

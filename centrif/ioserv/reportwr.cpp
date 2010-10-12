@@ -20,7 +20,7 @@ void ReportWiter::checkState()
 {
     int i=sender()->objectName().right(1).toInt()-1; // визначити хто відправив сигнал
     qint16 s=src[i]->getValue16("Status");
-    if(lastState[i]==18 && s!=18) //якщо була регенерація а стала не регенерація - записати звіт
+    if(lastState[i]==2 && s!=2) //якщо була регенерація а стала не регенерація - записати звіт
     {
         //qDebug() << "Report" << sender()->objectName();
         QSqlDatabase dbs=QSqlDatabase::database("logging",true); //знайти з’єдання logging
@@ -54,7 +54,7 @@ void ReportWiter::checkState()
         }
     }
 
-    if(s==18) // якщо стадія регенераці зберегти дані, бо після її закінчення контролер їх обнулить.
+    if(s==2) // якщо стадія регенераці зберегти дані, бо після її закінчення контролер їх обнулить.
     {
         data[i][0]=src[i]->getValue16("T_all");
         data[i][1]=src[i]->getValueFloat("Gzag");

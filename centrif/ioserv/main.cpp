@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
         RxModbus *t= new RxModbus;
         t->setObjectName(QString("cf_%1").arg(i+1));
         t->loadList(":/text/list.txt");
-        t->setHostName(QString("10.0.1.%1").arg(i+1));
+        t->setHostName(QString("10.0.2.%1").arg(i+1));
         t->setPort(502);
         r << t;
         src << t;

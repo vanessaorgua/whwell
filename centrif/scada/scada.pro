@@ -20,8 +20,7 @@ HEADERS += mainform.h \
     alertviewdialog.h \
     one_mnemo.h \
     cfparam.h \
-    report.h \
-    dlgshibctrl.h
+    report.h
 FORMS += mainform.ui \
     mnemo.ui \
     sparamdialog.ui \
@@ -31,8 +30,7 @@ FORMS += mainform.ui \
     one_mnemo.ui \
     cfparam.ui \
     report.ui \
-    ../../../lib/trend/datetime.ui \
-    dlgshibctrl.ui
+    ../../../lib/trend/datetime.ui
 SOURCES += main.cpp \
     mainform.cpp \
     mnemo.cpp \
@@ -41,8 +39,7 @@ SOURCES += main.cpp \
     alertviewdialog.cpp \
     one_mnemo.cpp \
     cfparam.cpp \
-    report.cpp \
-    dlgshibctrl.cpp
+    report.cpp
 RESOURCES += mnemo/mnemo.qrc \
     ../../../lib/picture.qrc \
     text.qrc
@@ -59,7 +56,8 @@ LIBS += -lrcada_client
 INCLUDEPATH += ../../../lib/include
 OTHER_FILES += text/alert.txt \
     text/cf \
-    text/drv
+    text/drv \
+    text/upload
 win32:QTPLUGIN += qsvg
 win32:CONFIG += static
 PRE_TARGETDEPS += ../../../lib/librcada_client.a

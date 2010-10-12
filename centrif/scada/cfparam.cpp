@@ -20,7 +20,8 @@ CfParam::CfParam(IoDev &source, QWidget *parent) :
         << m_ui->Max_gzag
         << m_ui->Fott_min
         << m_ui->Fott_max
-        << m_ui->Ob_max
+        << m_ui->Fsgr_min
+        << m_ui->Fsgr_max
         << m_ui->I_m_max;
 
     sb  << m_ui->T_zag_zd
@@ -32,17 +33,15 @@ CfParam::CfParam(IoDev &source, QWidget *parent) :
         << m_ui->Ts_b_zd
         << m_ui->Tn_v
         << m_ui->Tn_n
+
         << m_ui->T_vigr_zd
         << m_ui->Fott_zd
-        << m_ui->Ob_zag_zd
-        << m_ui->Ob_prl_zd
-        << m_ui->Ob_fug_zd
-        << m_ui->Ob_vigr_zd
-        << m_ui->Ob_del_zd
-
         << m_ui->Kf_i_m
-        << m_ui->Kf_ob
-        << m_ui->Kf_fott;
+        << m_ui->Kf_fott
+
+        << m_ui->Kf_fsgr
+        << m_ui->T_qout
+        << m_ui->Tz_prl;
 
     dsb_tag <<"Kv_1"
         <<"Kv_2"
@@ -53,10 +52,11 @@ CfParam::CfParam(IoDev &source, QWidget *parent) :
         <<"Q_prl_zd"
         <<"Q_man_zd"
         <<"Max_gzag"
-        <<"Fott_min"
-        <<"Fott_max"
-        <<"Ob_max"
-        <<"I_m_max";
+        <<"Min_fott"
+        <<"Max_fott"
+        <<"Min_fsgr"
+        <<"Max_fsgr"
+        <<"Max_i_m";
     sb_tag <<"T_zag_zd"
         <<"T_fug_zd"
         <<"T_sir_zd"
@@ -66,16 +66,15 @@ CfParam::CfParam(IoDev &source, QWidget *parent) :
         <<"Ts_b_zd"
         <<"Tn_v"
         <<"Tn_n"
+
         <<"T_vigr_zd"
         <<"Fott_zd"
-        <<"Ob_zag_zd"
-        <<"Ob_prl_zd"
-        <<"Ob_fug_zd"
-        <<"Ob_vigr_zd"
-        <<"Ob_del_zd"
         <<"Kf_i_m"
-        <<"Kf_ob"
-        <<"Kf_fott";
+        <<"Kf_fott"
+
+        <<"Kf_fsgr"
+        <<"T_qout"
+        <<"Tz_prl";
 
     int i=0;
     foreach(QString str,dsb_tag)
@@ -87,10 +86,11 @@ CfParam::CfParam(IoDev &source, QWidget *parent) :
     {
         sb[i++]->setValue(src.getValue16(str));
     }
-    m_ui->Imp->setCurrentIndex(src.getValue16("Imp"));
+    m_ui->Imp->setCurrentIndex(src.getValue16("Imp")-1);
     m_ui->Rej_sir->setChecked(src.getValue16("Rej_sir"));
     m_ui->Rej_fug->setCurrentIndex(src.getValue16("Rej_fug")?1:0);
-
+    m_ui->rej_sync->setChecked(src.getValue16("rej_sync"));
+    m_ui->T_motor->setValue(src.getValue32("T_motor")/1000);
     connect(m_ui->buttonBox,SIGNAL(accepted()),this,SLOT(slotAccept()));
 
 }
@@ -122,9 +122,15 @@ void CfParam::slotAccept()
     foreach(QString str,sb_tag)
         src.sendValue(str,qint16(sb[i++]->value()));
 
-    src.sendValue("Imp",qint16(m_ui->Imp->currentIndex()));
+    src.sendValue("Imp",qint16(m_ui->Imp->currentIndex()+1));
     src.sendValue("Rej_sir",qint16(m_ui->Rej_sir->checkState()?-1:0));
     src.sendValue("Rej_fug",qint16(m_ui->Rej_fug->currentIndex()?-1:0));
+    src.sendValue("rej_sync",qint16(m_ui->rej_sync->checkState()?-1:0));
+    src.sendValue("T_motor",m_ui->T_motor->value()*1000);
+
+    src.sendValue("Save",qint16(-1));
+    src.sendValue("Run",qint16(0));
+
     accept();
 }
 

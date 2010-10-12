@@ -7,7 +7,6 @@
 
 #include <QVBoxLayout>
 
-#include <dlgshibctrl.h>
 
 Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(src)
 {
@@ -161,25 +160,22 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
     State << tr("Тест")        //-1
           << tr("Зупинено")    // 0
           << tr("Пуск")        // 1
-          << tr("Очікування")  // 2
-          << tr("Завантаження") // 3
+          << tr("Пром. сит") // 2
+          << tr("Очікування")  // 3
           << tr("Завантаження") // 4
-          << tr("Розгон") //5
-          << tr("Пром. лотка") // 6
-          << tr("Фугування") // 7
-          << tr("Пром. сироп.") // 8
-          << tr("Пром. сироп.") // 9
+          << tr("Фугування") // 5
+          << tr("Пром. сироп.") // 6
+          << tr("Пром. сироп.") // 7
+          << tr("Пром. цукру") // 8
+          << tr("Пром. цукру") // 9
           << tr("Пром. цукру") // 10
           << tr("Пром. цукру") // 11
           << tr("Пром. цукру") // 12
-          << tr("Пром. цукру") // 13
-          << tr("Пром. цукру") // 14
-          << tr("Сушіння") // 15
-          << tr("Гальмування") // 16
-          << tr("Вивантаження") // 17
-          << tr("Пром. сит") // 18
-          << tr("Вібрація") // 19
-          << tr("Синхронізація"); // 20
+          << tr("Сушіння") // 13
+          << tr("Гальмування") // 14
+          << tr("Вивантаження") // 15
+          << tr("Синхронізація") // 16
+          << tr("Вібрація"); // 17
 
 
 
@@ -216,7 +212,6 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
             << m_ui->cb_X_06
             << m_ui->cb_X_07
             << m_ui->cb_Y_01;
-    connect(m_ui->bn_X_03,SIGNAL(clicked()),this,SLOT(slotShibCtrl()));
 }
 
 Mnemo::~Mnemo()
@@ -247,12 +242,15 @@ void Mnemo::updateDataRaw(int i)
         }
 
         le[i][1]->setText(QString("%1").arg(s[i]->getValueFloat("Gzag"),4,'f',0));
-        le[i][2]->setText(QString("%1").arg(s[i]->getValueFloat("Q_all"),4,'f',1));
+        le[i][2]->setText(QString("%1").arg(s[i]->getValueFloat("Q_all"),3,'f',0));
 
         le[i][0]->setText(QString("%1").arg(s[i]->getValue16("Ob")));
-        le[i][3]->setText(QString("%1").arg(s[i]->getValue16("I_m")));
+        le[i][3]->setText(QString("%1").arg(s[i]->getValueFloat("I_m"),4,'f',0));
 
-        le[i][4]->setText(State[s[i]->getValue16("Status")+1]);
+        if(s[i]->getValue16("Status")>-2 && s[i]->getValue16("Status")< 18)
+        {
+            le[i][4]->setText(State[s[i]->getValue16("Status")+1]);
+        }
 
     }
     else if(i==4)
@@ -260,20 +258,20 @@ void Mnemo::updateDataRaw(int i)
     // це загальні парамерти
         foreach(QProgressBar*p,pb_cm)
         {
-            p->setValue(s[5]->getValueFloat(p->objectName().right(p->objectName().size()-3)));
+            p->setValue(s[4]->getValueFloat(p->objectName().right(p->objectName().size()-3)));
         }
 
         foreach(QLineEdit*p,le_cm)
         {
-            p->setText(QString("%1").arg(s[5]->getValueScaled(p->objectName().right(p->objectName().size()-3)),3,'f',0));
+            p->setText(QString("%1").arg(s[4]->getValueScaled(p->objectName().right(p->objectName().size()-3)),3,'f',0));
         }
 
         foreach(QCheckBox*p,cb_cm)
         {
-            p->setChecked(s[5]->getValue16(p->objectName().right(p->objectName().size()-3)));
+            p->setChecked(s[4]->getValue16(p->objectName().right(p->objectName().size()-3)));
         }
 
-        m_ui->bn_X_03->setIcon(QIcon(QPixmap(s[5]->getValue16("X_03")
+        m_ui->bn_X_03->setIcon(QIcon(QPixmap(s[4]->getValue16("X_03")
             ?":/pict/lib/valve_green_20x32.png":":/pict/lib/valve_off_20x32.png")));
     }
 }
@@ -283,7 +281,7 @@ void Mnemo::updateDataScaled() // слот обновляє дані на мне
     // це загальні параметри
     foreach(QLineEdit*p,le_cm)
     {
-        p->setText(QString("%1").arg(s[5]->getValueScaled(p->objectName().right(p->objectName().size()-3)),3,'f',0));
+        p->setText(QString("%1").arg(s[4]->getValueScaled(p->objectName().right(p->objectName().size()-3)),3,'f',0));
     }
 }
 
@@ -313,9 +311,5 @@ void Mnemo::updateTrChart() // поновлюємо дані на графічк
 }
 
 
-void Mnemo::slotShibCtrl()
-{
-    DlgShibCtrl p(*s[5]);
-    p.exec();
-}
+
 

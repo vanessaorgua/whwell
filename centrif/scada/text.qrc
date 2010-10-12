@@ -8,5 +8,6 @@
         <file>text/drv</file>
         <file>text/trend</file>
         <file>text/shib</file>
+        <file>text/upload</file>
     </qresource>
 </RCC>

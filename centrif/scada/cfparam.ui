@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>330</width>
-    <height>432</height>
+    <height>448</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <item>
     <widget class="QTabWidget" name="tabWidget">
      <property name="currentIndex">
-      <number>2</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="tab_1">
       <attribute name="title">
@@ -30,15 +30,18 @@
           <string>Входи</string>
          </property>
          <layout class="QGridLayout" name="gridLayout">
-          <item row="3" column="0">
+          <item row="2" column="0">
            <widget class="QLabel" name="label">
             <property name="text">
              <string>Відхід патоки</string>
             </property>
            </widget>
           </item>
-          <item row="3" column="2">
+          <item row="2" column="2">
            <widget class="QDoubleSpinBox" name="Fott_min">
+            <property name="toolTip">
+             <string>Задане мінімальне значення шкали каналу вимірювання інтенсивності відходу патоки</string>
+            </property>
             <property name="decimals">
              <number>0</number>
             </property>
@@ -47,8 +50,11 @@
             </property>
            </widget>
           </item>
-          <item row="3" column="3">
+          <item row="2" column="3">
            <widget class="QDoubleSpinBox" name="Fott_max">
+            <property name="toolTip">
+             <string>Задане максимальне значення шкали каналу вимірювання інтенсивності відходу патоки</string>
+            </property>
             <property name="decimals">
              <number>0</number>
             </property>
@@ -57,8 +63,11 @@
             </property>
            </widget>
           </item>
-          <item row="3" column="4">
+          <item row="2" column="4">
            <widget class="QSpinBox" name="Kf_fott">
+            <property name="toolTip">
+             <string>Демпфер каналу вимірювання інтенсивності відходу патоки</string>
+            </property>
             <property name="maximum">
              <number>5</number>
             </property>
@@ -85,57 +94,76 @@
             </property>
            </widget>
           </item>
-          <item row="2" column="0">
+          <item row="1" column="0">
            <widget class="QLabel" name="label_5">
             <property name="text">
              <string>Струм</string>
             </property>
            </widget>
           </item>
-          <item row="1" column="0">
-           <widget class="QLabel" name="label_6">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="text">
-             <string>Оберти</string>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="4">
-           <widget class="QSpinBox" name="Kf_i_m">
-            <property name="maximum">
-             <number>5</number>
-            </property>
-           </widget>
-          </item>
           <item row="1" column="4">
-           <widget class="QSpinBox" name="Kf_ob">
+           <widget class="QSpinBox" name="Kf_i_m">
+            <property name="toolTip">
+             <string>Демпфер каналу вимірювання струму</string>
+            </property>
             <property name="maximum">
              <number>5</number>
             </property>
            </widget>
           </item>
           <item row="1" column="3">
-           <widget class="QDoubleSpinBox" name="Ob_max">
+           <widget class="QDoubleSpinBox" name="I_m_max">
+            <property name="toolTip">
+             <string>Верхня межа датчика струму</string>
+            </property>
             <property name="decimals">
              <number>0</number>
             </property>
             <property name="maximum">
-             <double>1500.000000000000000</double>
+             <double>1000.000000000000000</double>
             </property>
            </widget>
           </item>
-          <item row="2" column="3">
-           <widget class="QDoubleSpinBox" name="I_m_max">
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_31">
+            <property name="text">
+             <string>Тип патоки</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QDoubleSpinBox" name="Fsgr_min">
+            <property name="toolTip">
+             <string>Задане мінімальне значення шкали каналу вимірювання типу патоки</string>
+            </property>
             <property name="decimals">
              <number>0</number>
             </property>
             <property name="maximum">
-             <double>500.000000000000000</double>
+             <double>3000.000000000000000</double>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="QDoubleSpinBox" name="Fsgr_max">
+            <property name="toolTip">
+             <string>Задане максимальне значення шкали каналу вимірювання типу патоки</string>
+            </property>
+            <property name="decimals">
+             <number>0</number>
+            </property>
+            <property name="maximum">
+             <double>3000.000000000000000</double>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="4">
+           <widget class="QSpinBox" name="Kf_fsgr">
+            <property name="toolTip">
+             <string>Демпфер каналу вимірювання типу патоки</string>
+            </property>
+            <property name="maximum">
+             <number>5</number>
             </property>
            </widget>
           </item>
@@ -163,6 +191,9 @@
           </item>
           <item row="0" column="1">
            <widget class="QDoubleSpinBox" name="K_imp">
+            <property name="toolTip">
+             <string>Ціна імпульсу лічильника води (параметр лічильника)</string>
+            </property>
             <property name="maximum">
              <double>5.000000000000000</double>
             </property>
@@ -187,6 +218,9 @@
           </item>
           <item row="1" column="1">
            <widget class="QDoubleSpinBox" name="Kf_pr">
+            <property name="toolTip">
+             <string>Коефіцієнт для разрахунку часу промивки цукру в залежності від об’єму води.</string>
+            </property>
             <property name="maximum">
              <double>10.000000000000000</double>
             </property>
@@ -204,6 +238,9 @@
           </item>
           <item row="2" column="1">
            <widget class="QDoubleSpinBox" name="Kf_prl">
+            <property name="toolTip">
+             <string>Коефіцієнт для разрахунку часу промивки лотка в залежності від об’єму води.</string>
+            </property>
             <property name="maximum">
              <double>10.000000000000000</double>
             </property>
@@ -268,14 +305,14 @@
             </property>
            </widget>
           </item>
-          <item row="1" column="0">
+          <item row="2" column="0">
            <widget class="QLabel" name="label_14">
             <property name="text">
              <string>Промивка лотка</string>
             </property>
            </widget>
           </item>
-          <item row="2" column="0">
+          <item row="3" column="0">
            <widget class="QLabel" name="label_15">
             <property name="text">
              <string>Макс. ручна доза</string>
@@ -284,16 +321,9 @@
           </item>
           <item row="0" column="1">
            <widget class="QDoubleSpinBox" name="Q_reg_zd">
-            <property name="decimals">
-             <number>0</number>
+            <property name="toolTip">
+             <string>Заданий об’єм води на промивку сита</string>
             </property>
-            <property name="maximum">
-             <double>50.000000000000000</double>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="1">
-           <widget class="QDoubleSpinBox" name="Q_prl_zd">
             <property name="decimals">
              <number>0</number>
             </property>
@@ -303,7 +333,23 @@
            </widget>
           </item>
           <item row="2" column="1">
+           <widget class="QDoubleSpinBox" name="Q_prl_zd">
+            <property name="toolTip">
+             <string>Заданий об’єм води на промивку лотка</string>
+            </property>
+            <property name="decimals">
+             <number>0</number>
+            </property>
+            <property name="maximum">
+             <double>50.000000000000000</double>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
            <widget class="QDoubleSpinBox" name="Q_man_zd">
+            <property name="toolTip">
+             <string>Обмеження кількості води при ручній промивці за один прийом</string>
+            </property>
             <property name="decimals">
              <number>0</number>
             </property>
@@ -325,7 +371,7 @@
             </property>
            </widget>
           </item>
-          <item row="1" column="2">
+          <item row="2" column="2">
            <widget class="QLabel" name="label_23">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
@@ -338,7 +384,7 @@
             </property>
            </widget>
           </item>
-          <item row="2" column="2">
+          <item row="3" column="2">
            <widget class="QLabel" name="label_24">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
@@ -348,6 +394,30 @@
             </property>
             <property name="text">
              <string>л</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_29">
+            <property name="text">
+             <string>Час затримки промивки лотка</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QSpinBox" name="Tz_prl">
+            <property name="toolTip">
+             <string>Заданий час затримки промивки лотка з мометну закриття шибера</string>
+            </property>
+            <property name="maximum">
+             <number>20</number>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="label_32">
+            <property name="text">
+             <string>с</string>
             </property>
            </widget>
           </item>
@@ -370,13 +440,6 @@
             </property>
             <property name="text">
              <string>Кількість імпульсів</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="0">
-           <widget class="QLabel" name="label_17">
-            <property name="text">
-             <string>Час паузи між імп.</string>
             </property>
            </widget>
           </item>
@@ -410,6 +473,9 @@
           </item>
           <item row="0" column="1">
            <widget class="QComboBox" name="Imp">
+            <property name="toolTip">
+             <string>Задана кількість імпульсів пробілювання</string>
+            </property>
             <item>
              <property name="text">
               <string>1</string>
@@ -429,6 +495,9 @@
           </item>
           <item row="1" column="1">
            <widget class="QSpinBox" name="T_p_zd">
+            <property name="toolTip">
+             <string>Заданий час паузи між імпульсами пробілювання</string>
+            </property>
             <property name="maximum">
              <number>15</number>
             </property>
@@ -436,26 +505,41 @@
           </item>
           <item row="2" column="1">
            <widget class="QDoubleSpinBox" name="Kv_1">
+            <property name="toolTip">
+             <string>Коефіцієнт розрахунку кількості води для пробілювання цукру в залежності від маси завантаженого утфелю при вимкнутій промивці сиропом</string>
+            </property>
             <property name="decimals">
-             <number>0</number>
+             <number>2</number>
             </property>
             <property name="maximum">
              <double>50.000000000000000</double>
+            </property>
+            <property name="singleStep">
+             <double>0.100000000000000</double>
             </property>
            </widget>
           </item>
           <item row="3" column="1">
            <widget class="QDoubleSpinBox" name="Kv_2">
+            <property name="toolTip">
+             <string>Коефіцієнт розрахунку кількості води для пробілювання цукру в залежності від маси завантаженого утфелю при ввімкнутій промивці сиропом</string>
+            </property>
             <property name="decimals">
-             <number>0</number>
+             <number>2</number>
             </property>
             <property name="maximum">
              <double>50.000000000000000</double>
+            </property>
+            <property name="singleStep">
+             <double>0.100000000000000</double>
             </property>
            </widget>
           </item>
           <item row="4" column="1">
            <widget class="QCheckBox" name="Rej_sir">
+            <property name="toolTip">
+             <string>Вимикач промивки сиропом</string>
+            </property>
             <property name="text">
              <string/>
             </property>
@@ -463,6 +547,9 @@
           </item>
           <item row="5" column="1">
            <widget class="QSpinBox" name="T_sir_zd">
+            <property name="toolTip">
+             <string>Заданий час промивки сиропом</string>
+            </property>
             <property name="maximum">
              <number>15</number>
             </property>
@@ -479,6 +566,13 @@
            <widget class="QLabel" name="label_26">
             <property name="text">
              <string>с</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_17">
+            <property name="text">
+             <string>Час паузи між імп.</string>
             </property>
            </widget>
           </item>
@@ -539,6 +633,9 @@
           </item>
           <item row="0" column="1">
            <widget class="QSpinBox" name="Ts_z_zd">
+            <property name="toolTip">
+             <string>Заданий час затримки перемикання сегрегатора на зелену патоку з моменту відкриття шибера</string>
+            </property>
             <property name="maximum">
              <number>20</number>
             </property>
@@ -546,6 +643,9 @@
           </item>
           <item row="1" column="1">
            <widget class="QSpinBox" name="Ts_b_zd">
+            <property name="toolTip">
+             <string>Заданий час затримки перемикання сегрегатора на білу патоку з моменту початку пробілювання</string>
+            </property>
             <property name="minimum">
              <number>-20</number>
             </property>
@@ -584,77 +684,26 @@
            <number>1</number>
           </property>
           <item row="0" column="0">
-           <widget class="QLabel" name="label_29">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="text">
-             <string>Оберти завантаження</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="0">
            <widget class="QLabel" name="label_30">
             <property name="text">
              <string>Час заванатження</string>
             </property>
            </widget>
           </item>
-          <item row="2" column="0">
-           <widget class="QLabel" name="label_31">
-            <property name="text">
-             <string>Оберти пром. лотка</string>
-            </property>
-           </widget>
-          </item>
           <item row="0" column="1">
-           <widget class="QSpinBox" name="Ob_zag_zd">
-            <property name="minimum">
-             <number>100</number>
-            </property>
-            <property name="maximum">
-             <number>350</number>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="1">
            <widget class="QSpinBox" name="T_zag_zd">
+            <property name="toolTip">
+             <string>Обмеження часу завантаження</string>
+            </property>
             <property name="maximum">
              <number>25</number>
             </property>
            </widget>
           </item>
-          <item row="2" column="1">
-           <widget class="QSpinBox" name="Ob_prl_zd">
-            <property name="minimum">
-             <number>300</number>
-            </property>
-            <property name="maximum">
-             <number>1000</number>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="2">
+          <item row="0" column="2">
            <widget class="QLabel" name="label_42">
             <property name="text">
              <string>c</string>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="2">
-           <widget class="QLabel" name="label_43">
-            <property name="text">
-             <string>об/хв</string>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="2">
-           <widget class="QLabel" name="label_44">
-            <property name="text">
-             <string>об/хв</string>
             </property>
            </widget>
           </item>
@@ -674,33 +723,20 @@
            <number>1</number>
           </property>
           <item row="0" column="0">
-           <widget class="QLabel" name="label_32">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="text">
-             <string>Оберти фугування</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="0">
            <widget class="QLabel" name="label_33">
             <property name="text">
              <string>Закінчення фугування</string>
             </property>
            </widget>
           </item>
-          <item row="2" column="0">
+          <item row="1" column="0">
            <widget class="QLabel" name="label_34">
             <property name="text">
              <string>Час фугування</string>
             </property>
            </widget>
           </item>
-          <item row="3" column="0">
+          <item row="2" column="0">
            <widget class="QLabel" name="label_35">
             <property name="text">
              <string>Інтенсивність</string>
@@ -708,17 +744,10 @@
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QSpinBox" name="Ob_fug_zd">
-            <property name="minimum">
-             <number>750</number>
-            </property>
-            <property name="maximum">
-             <number>1200</number>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="1">
            <widget class="QComboBox" name="Rej_fug">
+            <property name="toolTip">
+             <string>Перемикач переходу до пробілювання</string>
+            </property>
             <item>
              <property name="text">
               <string>По часу</string>
@@ -731,35 +760,34 @@
             </item>
            </widget>
           </item>
-          <item row="2" column="1">
+          <item row="1" column="1">
            <widget class="QSpinBox" name="T_fug_zd">
+            <property name="toolTip">
+             <string>Заданий час фугування</string>
+            </property>
             <property name="maximum">
-             <number>25</number>
+             <number>120</number>
             </property>
            </widget>
           </item>
-          <item row="3" column="1">
+          <item row="2" column="1">
            <widget class="QSpinBox" name="Fott_zd">
+            <property name="toolTip">
+             <string>Задане значення інтенсивності відходу патоки для переходу до промивки цукру</string>
+            </property>
             <property name="maximum">
-             <number>25</number>
+             <number>75</number>
             </property>
            </widget>
           </item>
-          <item row="0" column="2">
-           <widget class="QLabel" name="label_45">
-            <property name="text">
-             <string>об/хв</string>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="2">
+          <item row="1" column="2">
            <widget class="QLabel" name="label_47">
             <property name="text">
              <string>c</string>
             </property>
            </widget>
           </item>
-          <item row="3" column="2">
+          <item row="2" column="2">
            <widget class="QLabel" name="label_51">
             <property name="text">
              <string>%</string>
@@ -790,54 +818,12 @@
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_5">
        <item>
-        <widget class="QGroupBox" name="groupBox_9">
-         <property name="title">
-          <string>Слідкування за обертами</string>
-         </property>
-         <layout class="QGridLayout" name="gridLayout_9">
-          <item row="0" column="0">
-           <widget class="QLabel" name="label_52">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="text">
-             <string>Коридор</string>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="1">
-           <widget class="QSpinBox" name="Ob_del_zd">
-            <property name="minimum">
-             <number>0</number>
-            </property>
-            <property name="maximum">
-             <number>15</number>
-            </property>
-            <property name="value">
-             <number>15</number>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="2">
-           <widget class="QLabel" name="label_53">
-            <property name="text">
-             <string>об/хв</string>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
-       </item>
-       <item>
         <widget class="QGroupBox" name="groupBox_10">
          <property name="title">
-          <string>Завантажувач</string>
+          <string>Завантаження</string>
          </property>
          <layout class="QGridLayout" name="gridLayout_10">
-          <item row="0" column="0">
+          <item row="2" column="0">
            <widget class="QLabel" name="label_54">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
@@ -850,8 +836,11 @@
             </property>
            </widget>
           </item>
-          <item row="0" column="1">
+          <item row="2" column="1">
            <widget class="QDoubleSpinBox" name="Max_gzag">
+            <property name="toolTip">
+             <string>Максимальне завантаження центрифуги(паспортні дані)</string>
+            </property>
             <property name="decimals">
              <number>0</number>
             </property>
@@ -866,10 +855,56 @@
             </property>
            </widget>
           </item>
-          <item row="0" column="2">
+          <item row="2" column="2">
            <widget class="QLabel" name="label_55">
             <property name="text">
              <string>кг</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_58">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>Час виходу з черги</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="label_52">
+            <property name="text">
+             <string>c</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QSpinBox" name="T_qout">
+            <property name="toolTip">
+             <string>Заданий час виходу з черги</string>
+            </property>
+            <property name="minimum">
+             <number>10</number>
+            </property>
+            <property name="maximum">
+             <number>120</number>
+            </property>
+            <property name="value">
+             <number>10</number>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="rej_sync">
+            <property name="toolTip">
+             <string>Вимикач синхронізації завантаження центрифуг.</string>
+            </property>
+            <property name="text">
+             <string>Синхронізація</string>
             </property>
            </widget>
           </item>
@@ -895,67 +930,47 @@
            <number>1</number>
           </property>
           <item row="0" column="0">
-           <widget class="QLabel" name="label_36">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="text">
-             <string>Оберти вивантаження</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="0">
            <widget class="QLabel" name="label_37">
             <property name="text">
              <string>Час простою ножа вверху</string>
             </property>
            </widget>
           </item>
-          <item row="2" column="0">
+          <item row="1" column="0">
            <widget class="QLabel" name="label_38">
             <property name="text">
              <string>Час простою ножа внизу</string>
             </property>
            </widget>
           </item>
-          <item row="3" column="0">
+          <item row="2" column="0">
            <widget class="QLabel" name="label_39">
             <property name="text">
-             <string>Макс. час вивантаження</string>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="1">
-           <widget class="QSpinBox" name="Ob_vigr_zd">
-            <property name="minimum">
-             <number>20</number>
-            </property>
-            <property name="maximum">
-             <number>120</number>
-            </property>
-            <property name="value">
-             <number>70</number>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="1">
-           <widget class="QSpinBox" name="Tn_n">
-            <property name="minimum">
-             <number>0</number>
-            </property>
-            <property name="maximum">
-             <number>15</number>
-            </property>
-            <property name="value">
-             <number>15</number>
+             <string>Час затримки вивантаж.</string>
             </property>
            </widget>
           </item>
           <item row="1" column="1">
+           <widget class="QSpinBox" name="Tn_n">
+            <property name="toolTip">
+             <string>Час простою ножа вивантажувача в нихній частині ротора</string>
+            </property>
+            <property name="minimum">
+             <number>0</number>
+            </property>
+            <property name="maximum">
+             <number>15</number>
+            </property>
+            <property name="value">
+             <number>15</number>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
            <widget class="QSpinBox" name="Tn_v">
+            <property name="toolTip">
+             <string>Час простою ножа вивантажувача в верхній частині ротора</string>
+            </property>
             <property name="minimum">
              <number>0</number>
             </property>
@@ -967,8 +982,11 @@
             </property>
            </widget>
           </item>
-          <item row="3" column="1">
+          <item row="2" column="1">
            <widget class="QSpinBox" name="T_vigr_zd">
+            <property name="toolTip">
+             <string>Час від моменту включення КМ1 до моменту відкриття конуса.</string>
+            </property>
             <property name="minimum">
              <number>0</number>
             </property>
@@ -981,28 +999,51 @@
            </widget>
           </item>
           <item row="0" column="2">
-           <widget class="QLabel" name="label_46">
-            <property name="text">
-             <string>об/хв</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="2">
            <widget class="QLabel" name="label_48">
             <property name="text">
              <string>c</string>
             </property>
            </widget>
           </item>
-          <item row="2" column="2">
+          <item row="1" column="2">
            <widget class="QLabel" name="label_49">
             <property name="text">
              <string>c</string>
             </property>
            </widget>
           </item>
-          <item row="3" column="2">
+          <item row="2" column="2">
            <widget class="QLabel" name="label_50">
+            <property name="text">
+             <string>c</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_56">
+            <property name="text">
+             <string>Час роботи двигуна ножа</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QSpinBox" name="T_motor">
+            <property name="toolTip">
+             <string>Максимальний час роботи двигуна приводу ножа (переміщення ножа вниз-вверх)</string>
+            </property>
+            <property name="minimum">
+             <number>0</number>
+            </property>
+            <property name="maximum">
+             <number>180</number>
+            </property>
+            <property name="value">
+             <number>0</number>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="label_57">
             <property name="text">
              <string>c</string>
             </property>

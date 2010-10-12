@@ -1,38 +1,38 @@
-Q_man	16	Real	1	1	-
-Gzag_s	18	Real	1	1	-
-Gzag_c	20	Real	1	1	-
+Q_man	16	Real	1	0	-
+Gzag_s	18	Real	1	0	-
+Gzag_c	20	Real	1	0	-
 I_a	22	Real	1	1	-
 I_b	24	Real	1	1	-
 I_m	26	Real	1	1	-
-Q_pr_zd	28	Real	1	1	-
-Gzag	30	Real	1	1	-
+Q_pr_zd	28	Real	1	0	-
+Gzag	30	Real	1	0	-
 Q_all	32	Real	1	1	-
-Q_reg	34	Real	1	1	-
-Q_prl	36	Real	1	1	-
-Q_pr	38	Real	1	1	-
-Q_man_r	40	Real	1	1	-
-Nc	42	Long	1	1	-
-T_all	44	Integer	1	1	-
-T_reg	45	Integer	1	1	-
-T_prl	46	Integer	1	1	-
-T_fug	47	Integer	1	1	-
-T_pr	48	Integer	1	1	-
-T_nt	49	Integer	1	1	-
+Q_reg	34	Real	1	0	-
+Q_prl	36	Real	1	0	-
+Q_pr	38	Real	1	0	-
+Q_man_r	40	Real	1	0	-
+Nc	42	Long	1	0	-
+T_all	44	Integer	1	0	-
+T_reg	45	Integer	1	0	-
+T_prl	46	Integer	1	0	-
+T_fug	47	Integer	1	0	-
+T_pr	48	Integer	1	0	-
+T_nt	49	Integer	1	0	-
 Error	50	Integer	1	1	-
 Status	51	Integer	1	1	-
 State	52	Integer	1	1	-
 Ob	53	Integer	1	1	-
 Fott	54	Integer	1	1	-
 Fsgr	55	Integer	1	1	-
-Tvod	56	Integer	1	1	-
+Tvod	56	Integer	1	0	-
 pv_spd	57	Integer	1	1	-
 X_torm	58	Bool	1	1	-
 X_lotok	59	Bool	1	1	-
 X_shib	60	Bool	1	1	-
 X_sgr_b	61	Bool	1	1	-
 X_sgr_z	62	Bool	1	1	-
-X_nup	63	Bool	1	1	-	Ніж вверху
-X_ndw	64	Bool	1	1	-	Ніж внизу
+X_nup	63	Bool	1	1	-	Кінцевик “ніж вверху”
+X_ndw	64	Bool	1	1	-	Кінцевик “ніж внизу”
 X_vc	65	Bool	1	1	-
 X_vv	66	Bool	1	1	-
 X_luk	67	Bool	1	1	-
@@ -51,13 +51,13 @@ Y_prl	79	Bool	1	1	-
 Y_sir	80	Bool	1	1	-
 Y_pr	81	Bool	1	1	-
 Y_sgr	82	Bool	1	1	-
-Y_nds	83	Bool	1	1	-
+Y_nds	83	Bool	1	1	-	Команда “ніж до сита”
 Y_cool	84	Bool	1	1	-
-Y_KM1	85	Bool	1	1	-
-Y_KM2	86	Bool	1	1	-
-Y_KM3	87	Bool	1	1	-
-Y_KM4	88	Bool	1	1	-
-Y_tyr	89	Bool	1	1	-
+Y_KM1	85	Bool	1	1	-	Контактор КМ1
+Y_KM2	86	Bool	1	1	-	Контактор КМ2
+Y_KM3	87	Bool	1	1	-	Контактор КМ3
+Y_KM4	88	Bool	1	1	-	Контактор КМ4
+Y_tyr	89	Bool	1	1	-	Тиристори
 Y_l_fw	90	Bool	1	1	-
 Y_l_bw	91	Bool	1	1	-
 A_dsp	92	Bool	1	1	-
@@ -71,15 +71,16 @@ A_all	99	Bool	1	1	-
 dsp_alm	100	Bool	1	1	-
 X_centr	101	Bool	1	1	-
 X_kon	102	Bool	1	1	-	Кінцевик конуса
-X_nds	103	Bool	1	1	-	кінцевик ніж до сита
-X_nvs	104	Bool	1	1	-	кінцевик ніж від сита
+X_nds	103	Bool	1	1	-	Кінцевик “ніж до сита”
+X_nvs	104	Bool	1	1	-	Кінцевик “ніж від сита”
 Y_dsp_h	105	Bool	1	1	-	Конус\, центровка
-Y_ndw	106	Bool	1	1	-	Ніж вниз
-Y_nup	107	Bool	1	1	-	ніж вниз
-Y_nvs	108	Bool	1	1	-
+Y_ndw	106	Bool	1	1	-	Команда “ніж вниз”
+Y_nup	107	Bool	1	1	-	Команда “ніж вверх”
+Y_nvs	108	Bool	1	1	-	Команда “ніж від сита”
 Y_dt	109	Bool	1	1	-	динамічне гальмування двигуна ножа
 dio_2	110	Bool	1	1	-	зв'язок з модулем 7060
-                        1	1	-
+a_motor	111	Bool	1	0	-
+T_qout	254	Integer	120	0	-
 Tz_prl	255	Integer	120	0	-
 Psir_min	256	Integer	120	0	-
 Tvod_zd	257	Integer	120	0	-
@@ -137,4 +138,6 @@ hi_Gzag	335	Real	120	0	-
 a_Gzag	337	Real	120	0	-
 b_Gzag	339	Real	120	0	-
 Gzag_offset	341	Real	120	0	-
-Tn_v	343	Integer	120	0	-	час простою ножа вверху
+Tn_v	343	Long	120	0	-	час простою ножа вверху
+rej_sync	345	Bool	120	0	-
+T_motor	346	Long	120	0	-

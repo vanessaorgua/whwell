@@ -32,7 +32,7 @@ Report::Report(QWidget *parent) :
     }
     else
     {
-        m_ui->sbStart->setDate(QDate(cdt.date().year(),cdt.date().month(),cdt.date().day() -(cdt.time().hour()>=0 ?-1:0)));
+        m_ui->sbStart->setDate(QDate(cdt.date().year(),cdt.date().month(),cdt.date().day()).addDays(cdt.time().hour()>19?0:-1));
         m_ui->sbStart->setTime(QTime(20,0,0,0));
     }
     m_ui->sbStop->setDateTime(m_ui->sbStart->dateTime().addSecs(12*3600));
@@ -179,7 +179,7 @@ void Report::slotChangeZm(int v)
     }
     else
     {
-        m_ui->sbStart->setDate(QDate(cdt.date().year(),cdt.date().month(),cdt.date().day() -(cdt.time().hour()>=0 ?-1:0)));
+        m_ui->sbStart->setDate(QDate(cdt.date().year(),cdt.date().month(),cdt.date().day()).addDays(cdt.time().hour()>19?0:-1));
         m_ui->sbStart->setTime(QTime(20,0,0,0));
     }
     m_ui->sbStop->setDateTime(m_ui->sbStart->dateTime().addSecs(12*3600));

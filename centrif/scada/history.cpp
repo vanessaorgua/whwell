@@ -18,15 +18,18 @@ RHistorySelect::RHistorySelect(IoNetClient &src,struct trendinfo *tp,QWidget *p 
     connect(m_ui->Cf_20cf2,SIGNAL(clicked()),this,SLOT(slotAccept()));
     connect(m_ui->Cf_30cf3,SIGNAL(clicked()),this,SLOT(slotAccept()));
     connect(m_ui->Cf_40cf4,SIGNAL(clicked()),this,SLOT(slotAccept()));
-    connect(m_ui->Cf_50cf5,SIGNAL(clicked()),this,SLOT(slotAccept()));
-    connect(m_ui->trend0trend6,SIGNAL(clicked()),this,SLOT(slotAccept()));
-    connect(m_ui->trend0shib6,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->trend0trend5,SIGNAL(clicked()),this,SLOT(slotAccept()));
 
     connect(m_ui->Cf_10drv1,SIGNAL(clicked()),this,SLOT(slotAccept()));
     connect(m_ui->Cf_20drv2,SIGNAL(clicked()),this,SLOT(slotAccept()));
     connect(m_ui->Cf_30drv3,SIGNAL(clicked()),this,SLOT(slotAccept()));
     connect(m_ui->Cf_40drv4,SIGNAL(clicked()),this,SLOT(slotAccept()));
-    connect(m_ui->Cf_50drv5,SIGNAL(clicked()),this,SLOT(slotAccept()));
+
+    connect(m_ui->Cf_10upload1,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->Cf_20upload2,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->Cf_30upload3,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->Cf_40upload4,SIGNAL(clicked()),this,SLOT(slotAccept()));
+
 }
 
 RHistorySelect::~RHistorySelect()
@@ -76,10 +79,10 @@ void RHistorySelect::slotAccept()
                      if(s[nIo]->fieldType(t)==1) // якщо дискретний сигнал
                     {
 			    // змінити тип поля
-                            TrendParam->fields[i]=QString("((%1!=0)*454+%2)").arg(t).arg(i*499);
+                            TrendParam->fields[i]=QString("((%1!=0)*400+%2)").arg(t).arg(i*500);
                             // дискретні шкали
-			    TrendParam->fScale[i][0]=0.0-1.1*(double)i;
-			    TrendParam->fScale[i][1]=8.8-1.1*(double)i;
+                            TrendParam->fScale[i][0]=0-1*(double)i;
+                            TrendParam->fScale[i][1]=8-1*(double)i;
 			}
 		}
 		else

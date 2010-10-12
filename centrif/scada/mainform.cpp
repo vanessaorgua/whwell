@@ -93,7 +93,14 @@ void mMainForm::trRun()
 
     if(trd->exec()==QDialog::Accepted)
     {
+
 	pTrw = new TrendWindow(NULL,&tp,nHeight);
+        if(tp.trend!="trend0trend5")
+        {
+            QVector<QColor> clr;
+            clr << Qt::green << Qt::red << Qt::yellow <<QColor(236,158,94) << Qt::cyan <<Qt::darkMagenta << Qt::darkYellow << Qt::darkGreen;
+            pTrw->setColors(clr);
+        }
         //pTrw->setAttribute( Qt::WA_DeleteOnClose);
 
         connect(pTrw,SIGNAL(finished()),this,SLOT(showMe()));
@@ -202,7 +209,7 @@ void mMainForm::showReport() // показати сторінку звітів
         delete oM;
     }
     // створити та відобразити сторінку звітів... тможе треба б додати менеджер розміщення
-    rep=new  Report(this);
+    rep=new  Report;
     m_ui->sW->addWidget(rep);
     m_ui->sW->setCurrentWidget(rep);
     currentIndex=1;

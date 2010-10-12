@@ -52,7 +52,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Тут треба щось вписати</string>
+      <string>SCADA-програма управління центрифугами ФПН-Л08</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>

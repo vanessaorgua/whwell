@@ -785,13 +785,6 @@ QCheckBox:indicator
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QRadioButton" name="cf_5">
-         <property name="text">
-          <string>Центрифуга 5</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </widget>
     </item>
@@ -1036,6 +1029,9 @@ QCheckBox:indicator
            </disabled>
           </palette>
          </property>
+         <property name="toolTip">
+          <string>Завдання на завантаження</string>
+         </property>
          <property name="decimals">
           <number>0</number>
          </property>
@@ -1075,6 +1071,9 @@ QCheckBox:indicator
            <width>0</width>
            <height>0</height>
           </size>
+         </property>
+         <property name="toolTip">
+          <string>Фактичне завантаження</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -1206,6 +1205,9 @@ QCheckBox:indicator
            </disabled>
           </palette>
          </property>
+         <property name="toolTip">
+          <string>Заданий об’єм води на промивку лотка</string>
+         </property>
          <property name="decimals">
           <number>0</number>
          </property>
@@ -1230,6 +1232,9 @@ QCheckBox:indicator
            <width>80</width>
            <height>16777215</height>
           </size>
+         </property>
+         <property name="toolTip">
+          <string>Фактичний об’єм води на промивку лотка</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -1282,6 +1287,9 @@ QCheckBox:indicator
            <width>80</width>
            <height>16777215</height>
           </size>
+         </property>
+         <property name="toolTip">
+          <string>Фактичний час промивки лотка</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -1382,6 +1390,9 @@ QCheckBox:indicator
            <height>16777215</height>
           </size>
          </property>
+         <property name="toolTip">
+          <string>Фактичне значення інтенсивності відходу патоки</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -1433,6 +1444,9 @@ QCheckBox:indicator
            <width>80</width>
            <height>16777215</height>
           </size>
+         </property>
+         <property name="toolTip">
+          <string>Фактичний час фугування</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -1504,6 +1518,9 @@ QCheckBox:indicator
            </disabled>
           </palette>
          </property>
+         <property name="toolTip">
+          <string>Задане значення інтенсивності відходу патоки для переходу до промивки цукру</string>
+         </property>
          <property name="minimum">
           <number>1</number>
          </property>
@@ -1556,6 +1573,9 @@ QCheckBox:indicator
             </colorrole>
            </disabled>
           </palette>
+         </property>
+         <property name="toolTip">
+          <string>Заданий час фугування</string>
          </property>
          <property name="minimum">
           <number>1</number>
@@ -1709,8 +1729,11 @@ QCheckBox:indicator
            </disabled>
           </palette>
          </property>
+         <property name="toolTip">
+          <string>Заданий час промивки сиропом</string>
+         </property>
          <property name="minimum">
-          <number>1</number>
+          <number>0</number>
          </property>
          <property name="maximum">
           <number>50</number>
@@ -1797,6 +1820,9 @@ QCheckBox:indicator
            <height>16777215</height>
           </size>
          </property>
+         <property name="toolTip">
+          <string>Фактична кількість води на промивку цукру</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -1861,6 +1887,9 @@ QCheckBox:indicator
            <width>80</width>
            <height>16777215</height>
           </size>
+         </property>
+         <property name="toolTip">
+          <string>Задана кількість води на промивку цукру</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -1938,6 +1967,9 @@ QCheckBox:indicator
            </disabled>
           </palette>
          </property>
+         <property name="toolTip">
+          <string>Корекція кількості води на промивку цукру</string>
+         </property>
          <property name="decimals">
           <number>0</number>
          </property>
@@ -1966,6 +1998,9 @@ QCheckBox:indicator
            <height>16777215</height>
           </size>
          </property>
+         <property name="toolTip">
+          <string>Задана кількість імпульсів пробілювання</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -1985,6 +2020,9 @@ QCheckBox:indicator
            <height>16777215</height>
           </size>
          </property>
+         <property name="toolTip">
+          <string>Заданий час паузи між імпульсами</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -2003,6 +2041,9 @@ QCheckBox:indicator
            <width>80</width>
            <height>16777215</height>
           </size>
+         </property>
+         <property name="toolTip">
+          <string>Фактичний час промивки цукру</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -2128,6 +2169,9 @@ QCheckBox:indicator
            <height>0</height>
           </size>
          </property>
+         <property name="toolTip">
+          <string>Фактичний час сушіння цукру</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -2197,6 +2241,9 @@ QCheckBox:indicator
             </colorrole>
            </disabled>
           </palette>
+         </property>
+         <property name="toolTip">
+          <string>Заданий час сушіння</string>
          </property>
          <property name="minimum">
           <number>1</number>
@@ -2334,6 +2381,9 @@ QCheckBox:indicator
            <height>16777215</height>
           </size>
          </property>
+         <property name="toolTip">
+          <string>Фактичний об’єм води на промивку сита</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -2385,6 +2435,9 @@ QCheckBox:indicator
            <width>80</width>
            <height>16777215</height>
           </size>
+         </property>
+         <property name="toolTip">
+          <string>Фактичний час промивки сита</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -2455,6 +2508,9 @@ QCheckBox:indicator
             </colorrole>
            </disabled>
           </palette>
+         </property>
+         <property name="toolTip">
+          <string>Заданий об’єм води на промивку сита</string>
          </property>
          <property name="decimals">
           <number>0</number>

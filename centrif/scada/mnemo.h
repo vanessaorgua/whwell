@@ -27,7 +27,6 @@ public slots:
     void updateDataScaled(); // слот обновляє дані на мнемосхемі
     void updateTrChart(); // поновлюємо дані на графічках
 
-    void slotShibCtrl();
 
 private:
     Ui::mnemo *m_ui;
