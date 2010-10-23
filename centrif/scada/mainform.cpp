@@ -22,7 +22,8 @@
 mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p),
         src(source),
         m_ui(new Ui::Form),
-        mMnemo(new Mnemo(source,this))
+        mMnemo(new Mnemo(source,this)),
+        rep(NULL)
 
 {
 
@@ -50,6 +51,7 @@ mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p),
 
     // відображення свіжих алертів
     connect(&src,SIGNAL(Alert(QString)),this,SLOT(slotAlert(QString)));
+
 
     
     t->start();
@@ -121,7 +123,7 @@ void mMainForm::showMe()
 
 void mMainForm::setupParm()
 {
-    if(m_ui->sW->currentIndex()>0)
+    if(m_ui->sW->currentIndex()>0 && rep==NULL)
     {
 
       CfParam p(*src[ oM->currentCfNom()],this);
@@ -186,11 +188,13 @@ void mMainForm::showMainMnemo() // ця функція поверне голов
         m_ui->bnReport->blockSignals(false);
         m_ui->sW->removeWidget(rep);
         delete rep;
+        rep=NULL;
     }
     else // 0 - показується мнемосхема одиночної центрифуги
     {
         m_ui->sW->removeWidget(oM);
         delete oM; //
+
     }
 
 }
