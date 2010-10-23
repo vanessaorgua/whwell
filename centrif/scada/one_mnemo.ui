@@ -757,6 +757,15 @@ QCheckBox:indicator
        <string/>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="topMargin">
+        <number>2</number>
+       </property>
+       <property name="rightMargin">
+        <number>2</number>
+       </property>
+       <property name="bottomMargin">
+        <number>2</number>
+       </property>
        <item>
         <widget class="QRadioButton" name="cf_1">
          <property name="text">
@@ -797,6 +806,18 @@ QCheckBox:indicator
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <property name="leftMargin">
+        <number>4</number>
+       </property>
+       <property name="topMargin">
+        <number>2</number>
+       </property>
+       <property name="rightMargin">
+        <number>4</number>
+       </property>
+       <property name="bottomMargin">
+        <number>4</number>
+       </property>
        <item>
         <widget class="QCheckBox" name="cb_stop">
          <property name="styleSheet">
@@ -851,6 +872,18 @@ QCheckBox:indicator
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="leftMargin">
+        <number>4</number>
+       </property>
+       <property name="topMargin">
+        <number>2</number>
+       </property>
+       <property name="rightMargin">
+        <number>4</number>
+       </property>
+       <property name="bottomMargin">
+        <number>4</number>
+       </property>
        <item>
         <widget class="QCheckBox" name="cb_wait">
          <property name="styleSheet">
@@ -905,7 +938,16 @@ QCheckBox:indicator
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QGridLayout" name="gridLayout">
-       <property name="margin">
+       <property name="leftMargin">
+        <number>4</number>
+       </property>
+       <property name="topMargin">
+        <number>2</number>
+       </property>
+       <property name="rightMargin">
+        <number>4</number>
+       </property>
+       <property name="bottomMargin">
         <number>4</number>
        </property>
        <property name="spacing">
@@ -963,7 +1005,7 @@ QCheckBox:indicator
          </property>
          <property name="minimumSize">
           <size>
-           <width>200</width>
+           <width>215</width>
            <height>0</height>
           </size>
          </property>
@@ -1100,6 +1142,122 @@ QCheckBox:indicator
          </property>
         </spacer>
        </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="label_38">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>215</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Час завантаження</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLineEdit" name="T_zag">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>80</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>80</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="baseSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>Фактичний час завантаження</string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLabel" name="label_39">
+         <property name="text">
+          <string>с</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QSpinBox" name="T_zag_zd">
+         <property name="minimumSize">
+          <size>
+           <width>80</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="palette">
+          <palette>
+           <active>
+            <colorrole role="Base">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>0</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </active>
+           <inactive>
+            <colorrole role="Base">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>0</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </inactive>
+           <disabled>
+            <colorrole role="Base">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>244</red>
+               <green>244</green>
+               <blue>244</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </disabled>
+          </palette>
+         </property>
+         <property name="toolTip">
+          <string>Заданий час завантаження центрифуги</string>
+         </property>
+         <property name="minimum">
+          <number>5</number>
+         </property>
+         <property name="maximum">
+          <number>30</number>
+         </property>
+        </widget>
+       </item>
       </layout>
      </widget>
     </item>
@@ -1112,7 +1270,16 @@ QCheckBox:indicator
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
-       <property name="margin">
+       <property name="leftMargin">
+        <number>4</number>
+       </property>
+       <property name="topMargin">
+        <number>2</number>
+       </property>
+       <property name="rightMargin">
+        <number>4</number>
+       </property>
+       <property name="bottomMargin">
         <number>4</number>
        </property>
        <property name="spacing">
@@ -1265,7 +1432,7 @@ QCheckBox:indicator
         <widget class="QLabel" name="label_6">
          <property name="minimumSize">
           <size>
-           <width>200</width>
+           <width>215</width>
            <height>0</height>
           </size>
          </property>
@@ -1307,7 +1474,7 @@ QCheckBox:indicator
         <widget class="QLabel" name="label_8">
          <property name="minimumSize">
           <size>
-           <width>200</width>
+           <width>215</width>
            <height>0</height>
           </size>
          </property>
@@ -1328,7 +1495,16 @@ QCheckBox:indicator
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QGridLayout" name="gridLayout_3">
-       <property name="margin">
+       <property name="leftMargin">
+        <number>4</number>
+       </property>
+       <property name="topMargin">
+        <number>2</number>
+       </property>
+       <property name="rightMargin">
+        <number>4</number>
+       </property>
+       <property name="bottomMargin">
         <number>4</number>
        </property>
        <property name="spacing">
@@ -1422,12 +1598,12 @@ QCheckBox:indicator
         <widget class="QLabel" name="label_12">
          <property name="minimumSize">
           <size>
-           <width>200</width>
+           <width>215</width>
            <height>0</height>
           </size>
          </property>
          <property name="text">
-          <string>Інтенсивність</string>
+          <string>Інтенсивність відходу</string>
          </property>
         </widget>
        </item>
@@ -1464,7 +1640,7 @@ QCheckBox:indicator
         <widget class="QLabel" name="label_14">
          <property name="minimumSize">
           <size>
-           <width>200</width>
+           <width>215</width>
            <height>0</height>
           </size>
          </property>
@@ -1597,7 +1773,16 @@ QCheckBox:indicator
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QGridLayout" name="gridLayout_5">
-       <property name="margin">
+       <property name="leftMargin">
+        <number>4</number>
+       </property>
+       <property name="topMargin">
+        <number>2</number>
+       </property>
+       <property name="rightMargin">
+        <number>4</number>
+       </property>
+       <property name="bottomMargin">
         <number>4</number>
        </property>
        <property name="spacing">
@@ -1655,7 +1840,7 @@ QCheckBox:indicator
          </property>
          <property name="minimumSize">
           <size>
-           <width>200</width>
+           <width>215</width>
            <height>0</height>
           </size>
          </property>
@@ -1758,7 +1943,16 @@ QCheckBox:indicator
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QGridLayout" name="gridLayout_4">
-       <property name="margin">
+       <property name="leftMargin">
+        <number>4</number>
+       </property>
+       <property name="topMargin">
+        <number>2</number>
+       </property>
+       <property name="rightMargin">
+        <number>4</number>
+       </property>
+       <property name="bottomMargin">
         <number>4</number>
        </property>
        <property name="spacing">
@@ -1852,7 +2046,7 @@ QCheckBox:indicator
         <widget class="QLabel" name="label_17">
          <property name="minimumSize">
           <size>
-           <width>200</width>
+           <width>215</width>
            <height>0</height>
           </size>
          </property>
@@ -1865,7 +2059,7 @@ QCheckBox:indicator
         <widget class="QLabel" name="label_19">
          <property name="minimumSize">
           <size>
-           <width>200</width>
+           <width>215</width>
            <height>0</height>
           </size>
          </property>
@@ -1900,7 +2094,7 @@ QCheckBox:indicator
         <widget class="QLabel" name="label_23">
          <property name="minimumSize">
           <size>
-           <width>200</width>
+           <width>215</width>
            <height>0</height>
           </size>
          </property>
@@ -1913,7 +2107,7 @@ QCheckBox:indicator
         <widget class="QLabel" name="label_24">
          <property name="minimumSize">
           <size>
-           <width>200</width>
+           <width>215</width>
            <height>0</height>
           </size>
          </property>
@@ -2076,11 +2270,20 @@ QCheckBox:indicator
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QGridLayout" name="gridLayout_6">
-       <property name="margin">
+       <property name="leftMargin">
+        <number>4</number>
+       </property>
+       <property name="topMargin">
         <number>2</number>
        </property>
+       <property name="rightMargin">
+        <number>4</number>
+       </property>
+       <property name="bottomMargin">
+        <number>4</number>
+       </property>
        <property name="spacing">
-        <number>1</number>
+        <number>-1</number>
        </property>
        <item row="0" column="0">
         <widget class="QCheckBox" name="cb_nt">
@@ -2134,7 +2337,7 @@ QCheckBox:indicator
          </property>
          <property name="minimumSize">
           <size>
-           <width>200</width>
+           <width>215</width>
            <height>0</height>
           </size>
          </property>
@@ -2265,6 +2468,18 @@ QCheckBox:indicator
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <property name="leftMargin">
+        <number>4</number>
+       </property>
+       <property name="topMargin">
+        <number>2</number>
+       </property>
+       <property name="rightMargin">
+        <number>4</number>
+       </property>
+       <property name="bottomMargin">
+        <number>4</number>
+       </property>
        <item>
         <widget class="QCheckBox" name="cb_vigr">
          <property name="styleSheet">
@@ -2319,7 +2534,16 @@ QCheckBox:indicator
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QGridLayout" name="gridLayout_7">
-       <property name="margin">
+       <property name="leftMargin">
+        <number>4</number>
+       </property>
+       <property name="topMargin">
+        <number>2</number>
+       </property>
+       <property name="rightMargin">
+        <number>4</number>
+       </property>
+       <property name="bottomMargin">
         <number>4</number>
        </property>
        <property name="spacing">
@@ -2413,7 +2637,7 @@ QCheckBox:indicator
         <widget class="QLabel" name="label_32">
          <property name="minimumSize">
           <size>
-           <width>200</width>
+           <width>215</width>
            <height>0</height>
           </size>
          </property>
@@ -2455,7 +2679,7 @@ QCheckBox:indicator
         <widget class="QLabel" name="label_34">
          <property name="minimumSize">
           <size>
-           <width>200</width>
+           <width>215</width>
            <height>0</height>
           </size>
          </property>

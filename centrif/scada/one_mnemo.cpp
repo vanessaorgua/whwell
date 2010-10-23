@@ -94,6 +94,7 @@ OneMnemo::OneMnemo(IoNetClient &src,QVector<TrendChart*> &masterTrChart, int cfN
     connect(m_ui->T_fug_zd,SIGNAL(valueChanged(int)),this,SLOT(sendValue(int)));
     connect(m_ui->T_sir_zd,SIGNAL(valueChanged(int)),this,SLOT(sendValue(int)));
     connect(m_ui->Tnt_zd,SIGNAL(valueChanged(int)),this,SLOT(sendValue(int)));
+    connect(m_ui->T_zag_zd,SIGNAL(valueChanged(int)),this,SLOT(sendValue(int)));
 
     connect(m_ui->cf_1,SIGNAL(clicked()),this,SLOT(changeCf()));
     connect(m_ui->cf_2,SIGNAL(clicked()),this,SLOT(changeCf()));
@@ -155,6 +156,8 @@ void OneMnemo::updateDataRaw(int i) // слот обновляє дані на �
         m_ui->T_nt->setText(QString("%1").arg(s[i]->getValue16("T_nt")));
         m_ui->T_reg->setText(QString("%1").arg(s[i]->getValue16("T_reg")));
         m_ui->T_all->setText(QString("%1").arg(s[i]->getValue16("T_all")));
+
+        m_ui->T_zag->setText(QString("%1").arg(s[i]->getValue16("T_zag")/1000));
 
         int Status = s[i]->getValue16("Status");
         m_ui->Status->setText(State[Status+1]);
@@ -269,7 +272,12 @@ void OneMnemo::changeCf()
     m_ui->Tnt_zd->blockSignals(true);
     m_ui->Tnt_zd->setValue(s[nCf]->getValue16("Tnt_zd"));
     m_ui->Tnt_zd->blockSignals(false);
-  }
+
+    m_ui->T_zag_zd->blockSignals(true);
+    m_ui->T_zag_zd->setValue(s[nCf]->getValue16("T_zag_zd"));
+    m_ui->T_zag_zd->blockSignals(false);
+
+}
 }
 
 void OneMnemo::sendValue(int v)
