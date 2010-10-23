@@ -41,7 +41,8 @@ CfParam::CfParam(IoDev &source, QWidget *parent) :
 
         << m_ui->Kf_fsgr
         << m_ui->T_qout
-        << m_ui->Tz_prl;
+        << m_ui->Tz_prl
+        << m_ui->Tvod_zd;
 
     dsb_tag <<"Kv_1"
         <<"Kv_2"
@@ -74,7 +75,8 @@ CfParam::CfParam(IoDev &source, QWidget *parent) :
 
         <<"Kf_fsgr"
         <<"T_qout"
-        <<"Tz_prl";
+        <<"Tz_prl"
+        << "Tvod_zd";
 
     int i=0;
     foreach(QString str,dsb_tag)
@@ -91,6 +93,9 @@ CfParam::CfParam(IoDev &source, QWidget *parent) :
     m_ui->Rej_fug->setCurrentIndex(src.getValue16("Rej_fug")?1:0);
     m_ui->rej_sync->setChecked(src.getValue16("rej_sync"));
     m_ui->T_motor->setValue(src.getValue32("T_motor")/1000);
+
+    m_ui->rej_tvod->setCurrentIndex(src.getValue16("Rej_tvod")?1:0);
+
     connect(m_ui->buttonBox,SIGNAL(accepted()),this,SLOT(slotAccept()));
 
 }
@@ -127,6 +132,8 @@ void CfParam::slotAccept()
     src.sendValue("Rej_fug",qint16(m_ui->Rej_fug->currentIndex()?-1:0));
     src.sendValue("rej_sync",qint16(m_ui->rej_sync->checkState()?-1:0));
     src.sendValue("T_motor",m_ui->T_motor->value()*1000);
+    src.sendValue("Rej_tvod",qint16(m_ui->rej_tvod->currentIndex()?-1:0));
+
 
     src.sendValue("Save",qint16(-1));
     src.sendValue("Run",qint16(0));

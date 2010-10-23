@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>330</width>
-    <height>448</height>
+    <height>452</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <item>
     <widget class="QTabWidget" name="tabWidget">
      <property name="currentIndex">
-      <number>0</number>
+      <number>1</number>
      </property>
      <widget class="QWidget" name="tab_1">
       <attribute name="title">
@@ -68,8 +68,11 @@
             <property name="toolTip">
              <string>Демпфер каналу вимірювання інтенсивності відходу патоки</string>
             </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
             <property name="maximum">
-             <number>5</number>
+             <number>99</number>
             </property>
            </widget>
           </item>
@@ -106,8 +109,11 @@
             <property name="toolTip">
              <string>Демпфер каналу вимірювання струму</string>
             </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
             <property name="maximum">
-             <number>5</number>
+             <number>99</number>
             </property>
            </widget>
           </item>
@@ -121,26 +127,6 @@
             </property>
             <property name="maximum">
              <double>1000.000000000000000</double>
-            </property>
-           </widget>
-          </item>
-          <item row="3" column="0">
-           <widget class="QLabel" name="label_31">
-            <property name="text">
-             <string>Тип патоки</string>
-            </property>
-           </widget>
-          </item>
-          <item row="3" column="2">
-           <widget class="QDoubleSpinBox" name="Fsgr_min">
-            <property name="toolTip">
-             <string>Задане мінімальне значення шкали каналу вимірювання типу патоки</string>
-            </property>
-            <property name="decimals">
-             <number>0</number>
-            </property>
-            <property name="maximum">
-             <double>3000.000000000000000</double>
             </property>
            </widget>
           </item>
@@ -162,8 +148,31 @@
             <property name="toolTip">
              <string>Демпфер каналу вимірювання типу патоки</string>
             </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
             <property name="maximum">
-             <number>5</number>
+             <number>99</number>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_31">
+            <property name="text">
+             <string>Тип патоки</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QDoubleSpinBox" name="Fsgr_min">
+            <property name="toolTip">
+             <string>Задане мінімальне значення шкали каналу вимірювання типу патоки</string>
+            </property>
+            <property name="decimals">
+             <number>0</number>
+            </property>
+            <property name="maximum">
+             <double>3000.000000000000000</double>
             </property>
            </widget>
           </item>
@@ -261,6 +270,78 @@
             <property name="text">
              <string>(л/c)-1</string>
             </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_9">
+         <property name="title">
+          <string>Температура води</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_9">
+          <item row="0" column="1">
+           <widget class="QSpinBox" name="Tvod_zd">
+            <property name="toolTip">
+             <string>Задана температура для розрахунку кількості води на на пробілювання цукру</string>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>150</number>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="label_43">
+            <property name="text">
+             <string>°C</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_36">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>Задана температура</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_44">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>Режим температури</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1" colspan="2">
+           <widget class="QComboBox" name="rej_tvod">
+            <property name="toolTip">
+             <string>Режим розрахунку кількості води на пробілювання</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>Завд</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Датч</string>
+             </property>
+            </item>
            </widget>
           </item>
          </layout>

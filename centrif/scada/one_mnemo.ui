@@ -489,12 +489,12 @@ min-height: 14px;
 max-width: 14px;
 max-height: 14px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/big/lamp_red_big.png);
 }
 
-QCheckBox:unchecked
+QCheckBox:checked
 {
 	image: url(:/big/lamf_off_big.png);
 	
