@@ -67,6 +67,7 @@ Y_nup smallint default '0',
 Y_nvs smallint default '0',
 Y_dt smallint default '0',
 dio_2 smallint default '0',
+Q_all smallint default '0',
 primary key(Dt)) Engine=InnoDb;
 
 create table Cf_2(
@@ -134,6 +135,7 @@ Y_nup smallint default '0',
 Y_nvs smallint default '0',
 Y_dt smallint default '0',
 dio_2 smallint default '0',
+Q_all smallint default '0',
 primary key(Dt)) Engine=InnoDb;
 
 create table Cf_3(
@@ -201,7 +203,9 @@ Y_nup smallint default '0',
 Y_nvs smallint default '0',
 Y_dt smallint default '0',
 dio_2 smallint default '0',
+Q_all smallint default '0',
 primary key(Dt)) Engine=InnoDb;
+
 create table Cf_4(
 Dt integer unsigned not null,
 I_a smallint default '0',
@@ -267,6 +271,7 @@ Y_nup smallint default '0',
 Y_nvs smallint default '0',
 Y_dt smallint default '0',
 dio_2 smallint default '0',
+Q_all smallint default '0',
 primary key(Dt)) Engine=InnoDb;
 
 
