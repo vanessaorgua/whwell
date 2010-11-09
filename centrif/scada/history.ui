@@ -68,6 +68,41 @@
           </widget>
          </item>
          <item>
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>Різне</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Cf_10other1">
+           <property name="text">
+            <string>Центрифуга №1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Cf_20other2">
+           <property name="text">
+            <string>Центрифуга №2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Cf_30other3">
+           <property name="text">
+            <string>Центрифуга №3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Cf_40other4">
+           <property name="text">
+            <string>Центрифуга №4</string>
+           </property>
+          </widget>
+         </item>
+         <item>
           <spacer name="verticalSpacer">
            <property name="orientation">
             <enum>Qt::Vertical</enum>

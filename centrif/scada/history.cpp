@@ -30,6 +30,11 @@ RHistorySelect::RHistorySelect(IoNetClient &src,struct trendinfo *tp,QWidget *p 
     connect(m_ui->Cf_30upload3,SIGNAL(clicked()),this,SLOT(slotAccept()));
     connect(m_ui->Cf_40upload4,SIGNAL(clicked()),this,SLOT(slotAccept()));
 
+    connect(m_ui->Cf_10other1,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->Cf_20other2,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->Cf_30other3,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->Cf_40other4,SIGNAL(clicked()),this,SLOT(slotAccept()));
+
 }
 
 RHistorySelect::~RHistorySelect()
@@ -70,7 +75,10 @@ void RHistorySelect::slotAccept()
                 TrendParam->fields[i]=t=sl2[0]; // прочитати назву поля
                 if(s[nIo]->getTags().contains(t)) // якщо задане поле знайдено
 		{
-                    sl<< /*s.getText()[t].size() > 0 ? */s[nIo]->getText()[t] /*: t */; // завантажити назву поля, якщо не знайдено - назву тега
+                    QString hI=s[nIo]->getText()[t];
+                    if(hI=="")
+                        hI=t;
+                    sl<< /*s.getText()[t].size() > 0 ? */hI /*: t */; // завантажити назву поля, якщо не знайдено - назву тега
 
 
                     TrendParam->fScale[i][0]=s[nIo]->scaleZero(t); // спробувати розпізнати тип поля та/чи значення шкали мінімуму

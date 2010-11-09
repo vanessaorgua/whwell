@@ -9,5 +9,6 @@
         <file>text/trend</file>
         <file>text/shib</file>
         <file>text/upload</file>
+        <file>text/other</file>
     </qresource>
 </RCC>

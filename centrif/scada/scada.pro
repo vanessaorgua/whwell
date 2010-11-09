@@ -57,7 +57,8 @@ INCLUDEPATH += ../../../lib/include
 OTHER_FILES += text/alert.txt \
     text/cf \
     text/drv \
-    text/upload
+    text/upload \
+    text/other
 win32:QTPLUGIN += qsvg
 win32:CONFIG += static
 PRE_TARGETDEPS += ../../../lib/librcada_client.a

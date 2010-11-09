@@ -1,0 +1,8 @@
+Ob*3.33	0	1200	Оберти
+Status*200	0	20	Кроки програми
+State*400	0	10	Управління приводом
+pv_spd*400	0	10	pv_spd
+X_alarm
+cf_fail
+drv_fail
+a_dsp
